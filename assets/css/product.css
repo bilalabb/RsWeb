@@ -1,0 +1,143 @@
+.product-categories-section-1{
+    background-color: #f5f5f5;
+    padding: 80px 0 0 0;
+  }
+  .product-categories-section-2{
+    background-color: #f5f5f5;
+    padding: 0 0 100px 0;
+  }
+    .cards-main-div{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 30px;
+      
+  
+    }
+  .card-img-top {
+    padding: 60px 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    max-height: 290px;
+  }
+  
+  .second-card{
+    border: none;
+    background-color:#f5f5f5 ;
+    text-align: center;
+    width: 24rem;
+  }
+  .card-text{
+    font-size: 20px;
+  }
+  .card-text a{
+    text-decoration: none;
+    color: #646464;
+    font-size: 1.3rem;
+  }
+  .card-text a:hover{
+  color: #37a1da;
+  }
+  .card-img-top-camra{
+    padding: 0px;
+    
+  }
+  .t3-img{
+    padding: 0;
+  }
+  
+  .View-more-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+  }
+  .View-more-btn .see-more{
+    background-color: #37a1da;
+    padding: 15px 80px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+  }
+  
+
+
+
+
+
+  
+@media(max-width:1024px){
+   
+
+    .container{
+        width:95%;
+        padding: 0 10px;
+    }
+    .product-categories-section-1 {
+        background-color: #f5f5f5;
+        padding: 40px 0 0 0;
+    }
+    .header h2 {
+        color: #37a1da;
+        font-weight: bold;
+        border-bottom: 1px solid;
+        line-height: 60px;
+        font-size: 35px;
+    }
+    .second-card {
+        border: none;
+        background-color: #f5f5f5;
+        text-align: center;
+        width: 16rem;
+    }
+    .card-img-top{
+        max-height: 200px;
+    }
+
+    .product-categories-section-2 {
+        background-color: #f5f5f5;
+        padding: 0 0 50px 0;
+    }
+    .View-more-btn .see-more {
+        background-color: #37a1da;
+        padding: 10px 50px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+    }
+}
+
+    @media(max-width:425px){
+   
+
+        .container{
+            width: 100%;
+            padding: 0 10px;
+        }
+        
+        .card-img-top {
+            max-height: 280px;
+        }
+        .cards-main-div {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        .second-card {
+            border: none;
+            background-color: #f5f5f5;
+            text-align: center;
+            width: 70rem;
+        }
+        .card-text a {
+            text-decoration: none;
+            color: #646464;
+            font-size: 20px;
+        }
+    
+    }
+
+
+
