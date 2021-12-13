@@ -412,6 +412,7 @@ export default function Home() {
                   <a href="#">EnGenius-Wireless Solution</a>
                 </p>
               </div>
+              
             </div>
             <div className="second-card col-md-3 col-sm-12 col-xs-12">
               <span className="second-card-img">
