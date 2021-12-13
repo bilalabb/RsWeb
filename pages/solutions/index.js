@@ -378,28 +378,22 @@ export default function Solutions() {
                 <img src="/image/2.jpg" alt="2.jpg" />
               </div>
               <div className="slick-slide">
-                <img src="/image/3.jpg" alt="3.jpg" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/4.jpg" alt="4.jpg" />
-              </div>
-              <div className="slick-slide">
                 <img src="/image/5.jpg" alt="5.jpg" />
               </div>
               <div className="slick-slide">
                 <img src="/image/6.jpg" alt="6.jpg" />
               </div>
               <div className="slick-slide">
-                <img src="/image/7.jpg" alt="7.jpg" />
-              </div>
-              <div className="slick-slide">
                 <img src="/image/8.jpg" alt="8.jpg" />
               </div>
               <div className="slick-slide">
-                <img src="/image/9.jpg" alt="9.jpg" />
+                <img src="/image/ak.png" alt="ak.png" />
               </div>
               <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" />
+                <img src="/image/11.jpg" alt="11.jpg" />
+              </div>
+              <div className="slick-slide">
+                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" />
               </div>
             </Slider>
           </div>
