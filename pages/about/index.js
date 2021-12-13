@@ -29,7 +29,7 @@ export default function About() {
           <h1>About Us</h1>
           <div className="bottom-border" />
           <p>
-            When yuo is simply Dummy text of the printing and typesetting industry.
+          RSTECH is the technology arm of Reactive Space.
           </p>
         </div>
         <div className="overly" />
@@ -40,21 +40,26 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="paragraph2">
-              <p>We are a team of astronauts (not literally) who are building blockchain-powered solutions to shoot for the moon! We can develop white-label solutions with the latest technologies, and as manifested by multiple deployments across the world, we can convert companies and enabling SMEs to fully explore their potential and expand their operationsexpand their operations.</p>
-              <p>We are a team of astronauts (not literally) who are building blockchain-powered solutions to shoot for the moon! We can develop white-label solutions with the latest technologies, and as manifested by multiple deployments across the world, we can convert companies and enabling SMEs to fully explore their potential and expand their operations.expand their operations</p>
+              <p>
+Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.</p>
+              <p>RS Technology is a Pakistan-based specialized value-added reseller. We aim to provide the best technology in Pakistan. We are ideally positioned to serve Pakistan’s technology market as a VAR of products and solutions. Our respected partners are Yealink, DrayTek, Yeastar, Milesight, 2N, Akuvox, XCALLY, Engenius.</p>
             </div>
           </div>
         </div>
       </section>
 
       <section className="shake-hand-section">
-        <div className="shake-hand-maindiv col-lg-12">
-          <div className="col-lg-6 col-12 paragraph-one">
-            <h3>Our Work &amp; Ethics</h3>
-            <p>We are a team of astronauts (not literally) who are building blockchain-powered solutions to shoot for the moon! We can develop white-label solutions with the latest technologies, and as manifested by multiple deployments across the world, we can convert companies and enabling SMEs to fully explore their potential and expand their operations.expand their operations</p>
-            <p>We are a team of astronauts (not literally) who are building blockchain-powered solutions to shoot for the moon! We can develop white-label solutions with the latest technologies, and as manifested by multiple deployments across the world, we can convert companies and enabling SMEs to fully explore their potential and expand their operations.expand their operations</p>
+        <div className="shake-hand-maindiv col-md-12">
+          <div className="col-md-6 col-12 paragraph-one">
+            <h1>Mission & Vision:</h1>
+          <h3>Our Mission</h3>
+
+            <p>As our goal is “COMPLEX CONNECTION, SIMPLE SOLUTION”, our mission is to bring user-friendly technology to Pakistan. At RS technology, the trust and confidence we acquire from our workers and customers are critical to our business's success.</p>
+          <h3>Our Vision</h3>
+
+            <p>At RS Technology, We aim to build credibility by keeping our promises, acting with honesty and integrity, and achieving corporate goals only via ethical behavior. RS Technology is devoted to establishing an atmosphere of dignity and respect.</p>
           </div>
-          <div className="col-lg-6 col-12 ">
+          <div className="col-md-6 col-12 ">
             <img src="/image/shake-hand.jpg" />
           </div>
         </div>
@@ -64,25 +69,23 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="paragraph2">
-              <h2>Customer Service Experience <div className="header-bottom-border" /></h2>
-              <p>We are a team of astronauts (not literally) who are building blockchain-powered solutions to shoot for the moon! We can develop white-label solutions with the latest technologies, and as manifested by multiple deployments across the world, we can convert companies and enabling SMEs to fully explore their potential and expand their operationsexpand their operations.</p>
-              <p>We are a team of astronauts (not literally) who are building blockchain-powered solutions to shoot for the moon! We can develop white-label solutions with the latest technologies, and as manifested by multiple deployments across the world, we can convert companies and enabling SMEs to fully explore their potential and expand their operations.expand their operations</p>
+              <h2> Customer Services.<div className="header-bottom-border" /></h2>
+              <p>We cultivate and maintain excellent working relationships with our clients in order to fully comprehend their business requirements and build a solid basis for product matching through our technology. Our client service is our greatest asset. We are in a unique position to provide a wide range of services to assist our customers with corporate solutions.</p>
             </div>
           </div>
         </div>
       </section>
 
       <section className="shake-hand-section">
-        <div className="shake-hand-maindiv col-lg-12">
-          <div className="col-lg-6 col-12 ">
+        <div className="shake-hand-maindiv col-md-12">
+          <div className="col-md-6 col-12 ">
             <img src="/image/36S0N.jpeg" />
           </div>
-          <div className="col-lg-6  col-12 paragraph-two">
+          <div className="col-md-6  col-12 paragraph-two">
             <h3>
-              Our Staff
+            OUR Staff
             </h3>
-            <p>We are a team of astronauts (not literally) who are building blockchain-powered solutions to shoot for the moon! We can develop white-label solutions with the latest technologies, and as manifested by multiple deployments across the world, we can convert companies and enabling SMEs to fully explore their potential and expand their operations.expand their operations</p>
-            <p>We are a team of astronauts (not literally) who are building blockchain-powered solutions to shoot for the moon! We can develop white-label solutions with the latest technologies, and as manifested by multiple deployments across the world, we can convert companies and enabling SMEs to fully explore their potential and expand their operations.expand their operations</p>
+            <p>To maintain a portfolio of excellent professionals, we continue to recruit suitable technology experts. Our staff is made up of the best individuals accessible in our industry. Our screening methods are designed to discover each candidate's unique qualifications and match them to the demands of our clients. We provide flexibility and choice, as well as remove the element of risk from the recruiting process.</p>            
           </div>
         </div>
       </section>

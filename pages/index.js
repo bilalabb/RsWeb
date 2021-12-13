@@ -11,17 +11,18 @@ import {
 export default function Home() {
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
+    autoplay:true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <FontAwesomeIcon icon={faChevronRight} />,
     prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
   };
-  
+
   var settings3 = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -45,150 +46,154 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <Slider {...settings}>
-              <div className="carousel-item active">
-               
-                <div className="carousel-caption  d-md-block">
-                  <h1>T3 Series IP Phones</h1>
+            <div className="carousel-item active">
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <img src="/image/logo/794-engenius_logo-removebg-preview.png"
+                    className="img-fluid"
+                    alt="..."
+                  />
                   <p>
-                    Some representative placeholder content for the first slide.
+                    EnGenius access points and cloud solutions are user-friendly amenities in modern life
                   </p>
-                  <div className="icon-image-div">
-                    <div className="inner-icon-div">
-                      <div className="inner-icon">
-                        <img
-                          src="/image/radio-waves.png"
-                          className="img-fluid"
-                        />
-                      </div>
-                      <span>Yealink HD Voice</span>
-                    </div>
-                    <div className="inner-icon-div">
-                      <div className="inner-icon">
-                        <img
-                          src="/image/day-and-night.png"
-                          className="img-fluid"
-                        />
-                      </div>
-                      <span>Yealink Device Management Platform</span>
-                    </div>
-                    <div className="inner-icon-div">
-                      <div className="inner-icon">
-                        <img src="/image/hosting.png" className="img-fluid" />
-                      </div>
-                      <span>Unified firmware</span>
-                    </div>
-                    <div className="inner-icon-div">
-                      <div className="inner-icon">
-                        <img src="/image/network.png" className="img-fluid" />
-                      </div>
-                      <span>5 Way local Conference</span>
-                    </div>
-                  </div>
                 </div>
-              
-                <img
-                  src="/image/T3-series-ip-phone.png"
-                  className="d-block"
-                  alt="..."
-                />
+                <div className="slider-top-img col-12 col-md-8">
+                  <img
+                    src="/image/slider-top-img/outdoor-series.png"
+                    className="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div className="carousel-item active">
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <img src="/image/logo/yealink-1-removebg-preview.png"
+                    className="img-fluid"
+                    alt="..."
+                  />
+                  <p>
+                    Yealink's communication devices are some of the world's top leading products in the market
+                  </p>
+                </div>
+                <div className="slider-top-img col-12 col-md-8">
+                  <img
+                    src="/image/slider-top-img/1-removebg-preview.png"
+                    className="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div className="carousel-item active">
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <img src="/image/logo/yeastar-removebg-preview.png"
+                    className="img-fluid"
+                    alt="..."
+                  />
+                  <p>
+                    Yeastar's Topnotch PBX system and Gateways in the modern-day market
+                  </p>
+                </div>
+                <div className="slider-top-img col-12 col-md-8">
+                  <img
+                    src="/image/slider-top-img/111.png"
+                    className="d-block"
+                    alt="..."
+                  />
+                </div>
               </div>
 
               <div className="carousel-item active">
-               
-                <div className="carousel-caption  d-md-block">
-                  <h1>T3 Series IP Phones</h1>
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <img src="/image/logo/milight-removebg-preview.png"
+                    className="img-fluid"
+                    alt="..."
+                  />
                   <p>
-                    Some representative placeholder content for the first slide.
+                    Milesight's Unmatchable Surveillance systems in the market with their unbeatable features
                   </p>
-                  <div className="icon-image-div">
-                    <div className="inner-icon-div">
-                      <div className="inner-icon">
-                        <img
-                          src="/image/radio-waves.png"
-                          className="img-fluid"
-                        />
-                      </div>
-                      <span>Yealink HD Voice</span>
-                    </div>
-                    <div className="inner-icon-div">
-                      <div className="inner-icon">
-                        <img
-                          src="/image/day-and-night.png"
-                          className="img-fluid"
-                        />
-                      </div>
-                      <span>Yealink Device Management Platform</span>
-                    </div>
-                    <div className="inner-icon-div">
-                      <div className="inner-icon">
-                        <img src="/image/hosting.png" className="img-fluid" />
-                      </div>
-                      <span>Unified firmware</span>
-                    </div>
-                    <div className="inner-icon-div">
-                      <div className="inner-icon">
-                        <img src="/image/network.png" className="img-fluid" />
-                      </div>
-                      <span>5 Way local Conference</span>
-                    </div>
-                  </div>
                 </div>
-              
-                <img
-                  src="/image/T3-series-ip-phone.png"
-                  className="d-block"
-                  alt="..."
-                />
+                <div className="slider-top-img col-12 col-md-8">
+                  <img
+                    src="/image/slider-top-img/MicrosoftTeams-image__4_-removebg-preview.png"
+                    className="d-block"
+                    alt="..."
+                  />
+                </div>
               </div>
-
               <div className="carousel-item active">
-               
-               <div className="carousel-caption  d-md-block">
-                 <h1>T3 Series IP Phones</h1>
-                 <p>
-                   Some representative placeholder content for the first slide.
-                 </p>
-                 <div className="icon-image-div">
-                   <div className="inner-icon-div">
-                     <div className="inner-icon">
-                       <img
-                         src="/image/radio-waves.png"
-                         className="img-fluid"
-                       />
-                     </div>
-                     <span>Yealink HD Voice</span>
-                   </div>
-                   <div className="inner-icon-div">
-                     <div className="inner-icon">
-                       <img
-                         src="/image/day-and-night.png"
-                         className="img-fluid"
-                       />
-                     </div>
-                     <span>Yealink Device Management Platform</span>
-                   </div>
-                   <div className="inner-icon-div">
-                     <div className="inner-icon">
-                       <img src="/image/hosting.png" className="img-fluid" />
-                     </div>
-                     <span>Unified firmware</span>
-                   </div>
-                   <div className="inner-icon-div">
-                     <div className="inner-icon">
-                       <img src="/image/network.png" className="img-fluid" />
-                     </div>
-                     <span>5 Way local Conference</span>
-                   </div>
-                 </div>
-               </div>
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <img src="/image/logo/Akuvox-removebg-preview.png"
+                    className="img-fluid"
+                    alt="..."
+                  />
+                  <p>
+                    Smart intercoms from Akuvox is essential to a luxurious lifestyle
+                  </p>
+                </div>
+                <div className="slider-top-img col-12 col-md-8">
+                  <img
+                    src="/image/slider-top-img/MicrosoftTeams-image__5_-removebg-preview.png"
+                    className="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
              
-               <img
-                 src="/image/T3-series-ip-phone.png"
-                 className="d-block"
-                 alt="..."
-               />
-             </div>
-              </Slider>
+              <div className="carousel-item active">
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <img src="/image/logo/2n-telekomunikace-a-s-logo-vector-removebg-preview.png"
+                    className="img-fluid logo-2n"
+                    alt="..."
+                  />
+                  <p>
+                    2N's intercoms are equipped with the top-notch technology available and an addition to your premium living
+                  </p>
+                </div>
+                <div className="slider-top-img col-12 col-md-8">
+                  <img
+                    src="/image/slider-top-img/MicrosoftTe-ms-image.png"
+                    className="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div className="carousel-item active">
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <img src="/image/logo/DrayTek_logo-removebg-preview.png"
+                    className="img-fluid"
+                    alt="..."
+                  />
+                  <p>
+                    DrayTekFrom ISDN, VDSL to LTE, DrayTek has always been striving to provide SMBs and professional with reliable, fast and secure connections.
+                  </p>
+                </div>
+                <div className="slider-top-img col-12 col-md-8">
+                  <img
+                    src="/image/slider-top-img/MicrosoftTeams-image drytek.png"
+                    className="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div className="carousel-item active">
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <img src="/image/logo/xcally-removebg-preview.png"
+                    className="img-fluid"
+                    alt="..."
+                  />
+                  <p>
+                  XCALLY provides highly dependable and scalable call center solutions
+                  </p>
+                </div>
+                <div className="slider-top-img col-12 col-md-8">
+                  <img
+                    src="/image/slider-top-img/xca.png"
+                    className="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+
+            </Slider>
           </div>
         </div>
       </section>
@@ -198,14 +203,13 @@ export default function Home() {
           <div className="row">
             <div className="header">
               <h2>
-                How can we help your Business?{" "}
+                Our Three Core Steps{" "}
                 <div className="header-bottom-border" />
               </h2>
             </div>
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p>
-                We are a team of astronauts (not literally) who are building
-                blockchain-powered solutions to shoot for the moon!{" "}
+                The trust and confidence we earn from our employees and customers are crucial to the success of our Company. We establish trust by operating with honesty, integrity and accomplishing business objectives via ethical behavior.{" "}
               </p>
             </div>
             <div className="card-main-div">
@@ -219,7 +223,7 @@ export default function Home() {
                   </div>
                   <h4>Find out what you need</h4>
                   <p className="card-text">
-                    We present you a proposal and discuss nitty-grtty like
+                    We present you a proposal and discuss all the details
                   </p>
                 </div>
               </div>
@@ -233,7 +237,7 @@ export default function Home() {
                   </div>
                   <h4>Work out the details</h4>
                   <p className="card-text">
-                    Communication protocols apart from engagment models
+                    Communication protocols apart from engagement models
                   </p>
                 </div>
               </div>
@@ -247,7 +251,7 @@ export default function Home() {
                   </div>
                   <h4>We get to work fast</h4>
                   <p className="card-text">
-                    Protocols apart from engage models,pricing billing
+                    Protocols apart from engage models, pricing billing
                   </p>
                 </div>
               </div>
@@ -263,12 +267,9 @@ export default function Home() {
                 <div className="card-about">
                   <h2 className="card-title">About us</h2>
                   <p className="card-text">
-                    We are a team of astronauts (not literally) who are building
-                    blockchain-powered solutions to shoot for the moon! We can
-                    develop white-label solutions with the latest technologies,
-                    and as manifested by multiple deployments across the world,
-                    we can convert companies and enabling SMEs to fully explore
-                    their potential and expand their operations.
+                    RSTECH is the technology arm of Reactive Space.
+
+                    Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.
                   </p>
                   <p className="card-text card-text-2">
                     Not only that, our white-label solutions are powering
@@ -281,7 +282,7 @@ export default function Home() {
                   </p>
                   <div className="read-more">
                     <span>
-                      Read more
+                      <a href="#" className="text-white">Read more</a>
                       <FontAwesomeIcon className="ms-2" icon={faChevronRight} />
                       <FontAwesomeIcon icon={faChevronRight} />
                     </span>
@@ -303,124 +304,130 @@ export default function Home() {
                 Product Categories <div className="header-bottom-border" />
               </h2>
             </div>
-            <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div className="paragaph-1 col-12">
               <p>
-                We are a team of astronauts (not literally) who are building
-                blockchain-powered solutions to shoot for the moon!{" "}
+                We build credibility by keeping our promises, acting with honesty and integrity. We bring you products from one of the finest brands out there{" "}
               </p>
             </div>
 
-            <div className="card second-card col-md-3 col-sm-12 col-xs-12">
-              <img
-                src="/image/new_home13-21.png"
-                className="img-fluid card-img-top"
-                alt="..."
-              />
+            <div className="second-card col-md-3 col-12">
+              <span className="second-card-img">
+                <img src="/image/yealink.jpg"
+                  className="card-img-top"
+                  alt="" />
+              </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Home security solutions</a>
+                  <a href="#">Yealink IP phone/video conferencng</a>
                 </p>
               </div>
             </div>
-            <div className="card second-card col-md-3 col-sm-12 col-xs-12">
-              <img
-                src="/image/draytek-products.png"
-                className="img-fluid card-img-top"
-                alt="draytek-products.png"
-              />
+            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+              <span className="second-card-img">
+                <img
+                  src="/image/1-1.png"
+                  className="card-img-top"
+                  alt=""
+                />
+              </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Home security solutions</a>
+                  <a href="#">Yeastar-PBX System</a>
                 </p>
               </div>
             </div>
-            <div className="card second-card col-md-3 col-sm-12 col-xs-12">
-              <img
-                src="/image/3-1.png"
-                className="img-fluid card-img-top"
-                alt="3-1.png"
-              />
+            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+              <span className="second-card-img">
+                <img
+                  src="/image/milesight_show.jpg"
+                  className="card-img-top"
+                  alt="milesight_show.jpg"
+                />
+              </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Home security solutions</a>
+                  <a href="#">Milesight-Surveillance System</a>
                 </p>
               </div>
             </div>
-            <div className="card second-card col-md-3 col-sm-12 col-xs-12">
-              <img
-                src="/image/AF-Motorized-Mini-Dome-3.png"
-                className="img-fluid card-img-top"
-                alt="AF-Motorized-Mini-Dome-3.png"
-              />
+            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+              <span className="second-card-img">
+                <img
+                  src="/image/4-1.png"
+                  className="card-img-top"
+                  alt="4-1.png"
+                />
+              </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Home security solutions</a>
+                  <a href="#">AKUVOX-Smart Intercom</a>
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="product-categories-section-2">
-        <div className="container">
-          <div className="row">
-            <div className="card second-card col-md-3 col-sm-12 col-xs-12">
-              <img
-                src="/image/4-1.png"
-                className="img-fluid card-img-top"
-                alt="4-1.png"
-              />
+            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+              <span className="second-card-img">
+                <img
+                  src="/image/5-1.png"
+                  className="card-img-top"
+                  alt="5-1.png"
+                />
+              </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Home security solutions</a>
+                  <a href="#">2N-IP Intercom</a>
                 </p>
               </div>
             </div>
-            <div className="card second-card col-md-3 col-sm-12 col-xs-12">
-              <img
-                src="/image/5-1.png"
-                className="img-fluid card-img-top"
-                alt="5-1.png"
-              />
+            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+              <span className="second-card-img">
+                <img
+                  src="/image/3-1.png"
+                  className="card-img-top"
+                  alt="3-1.png"
+                />
+              </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Home security solutions</a>
+                  <a href="#">XCALLY-Call Center Solution</a>
                 </p>
               </div>
             </div>
-            <div className="card second-card col-md-3 col-sm-12 col-xs-12">
-              <img
-                src="/image/2-1.png"
-                className="img-fluid card-img-top"
-                alt="2-1.png"
-              />
+            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+              <span className="second-card-img">
+                <img
+                  src="/image/outdoor-series.png"
+                  className="card-img-top"
+                  alt="outdoor-series.png"
+                />
+              </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Home security solutions</a>
+                  <a href="#">EnGenius-Wireless Solution</a>
                 </p>
               </div>
             </div>
-            <div className="card second-card col-md-3 col-sm-12 col-xs-12">
-              <img
-                src="/image/1-1.png"
-                className="img-fluid card-img-top "
-                alt="1-1.png"
-              />
+            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+              <span className="second-card-img">
+                <img
+                  src="/image/draytek-products.png"
+                  className="card-img-top "
+                  alt="1-1.png"
+                />
+              </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Home security solutions</a>
+                  <a href="#">Draytek VPN Router</a>
                 </p>
               </div>
             </div>
-
             <div className="View-more-btn">
               <button className="btn btn-primary btn-lg see-more" type="submit">
                 View more
@@ -429,6 +436,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="Upcoming-Products-section">
         <div className="container">
           <div className="row">
@@ -453,7 +461,7 @@ export default function Home() {
             <Slider {...settings3} className="carousel-slider2">
               <div className="carousel-item active">
                 <img
-                  src="/image/AF-Motorized-Mini-Dome-3.png"
+                  src="/image/MicrosoftTeams-image-1.png"
                   className="d-block camra-2"
                   alt="..."
                 />
@@ -461,10 +469,7 @@ export default function Home() {
                   <h3>MILESIGHT CCTV</h3>
                   <p>
                     Some representative placeholder content for the first
-                    slide.Some representative placeholder content for the first
-                    slideSome representative placeholder content for the first
-                    slide.Some representative placeholder content for the first
-                    slide..
+                    slide.
                   </p>
                   <div className="icon-image-div">
                     <div className="inner-icon-span">
@@ -505,7 +510,7 @@ export default function Home() {
               </div>
               <div className="carousel-item active">
                 <img
-                  src="/image/AF-Motorized-Mini-Dome-3.png"
+                  src="/image/af-motorized-mini-dome.png"
                   className="d-block camra-2"
                   alt="..."
                 />
@@ -571,28 +576,22 @@ export default function Home() {
                 <img src="/image/2.jpg" alt="2.jpg" />
               </div>
               <div className="slick-slide">
-                <img src="/image/3.jpg" alt="3.jpg" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/4.jpg" alt="4.jpg" />
-              </div>
-              <div className="slick-slide">
                 <img src="/image/5.jpg" alt="5.jpg" />
               </div>
               <div className="slick-slide">
                 <img src="/image/6.jpg" alt="6.jpg" />
               </div>
               <div className="slick-slide">
-                <img src="/image/7.jpg" alt="7.jpg" />
-              </div>
-              <div className="slick-slide">
                 <img src="/image/8.jpg" alt="8.jpg" />
               </div>
               <div className="slick-slide">
-                <img src="/image/9.jpg" alt="9.jpg" />
+                <img src="/image/ak.png" alt="ak.png" />
               </div>
               <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" />
+                <img src="/image/11.jpg" alt="11.jpg" />
+              </div>
+              <div className="slick-slide">
+                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" />
               </div>
             </Slider>
           </div>
