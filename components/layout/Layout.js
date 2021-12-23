@@ -7,8 +7,8 @@ export default function Layout({ children }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>RsWeb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>RS Tech</title>
+        <link rel="icon" href="/favicon.png" />
 
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
