@@ -593,28 +593,28 @@ export default function Home() {
           <div className="row logo-slider">
             <Slider {...settings2} className="">
               <div className="slick-slide">
-                <img src="/image/1.jpg" alt="1.jpg" />
+                <img src="/image/1.jpg" alt="1.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/2.jpg" alt="2.jpg" />
+                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/5.jpg" alt="5.jpg" />
+                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/6.jpg" alt="6.jpg" />
+                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/8.jpg" alt="8.jpg" />
+                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" />
+                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/11.jpg" alt="11.jpg" />
+                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" />
+                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image"/>
               </div>
             </Slider>
           </div>

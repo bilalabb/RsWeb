@@ -20,10 +20,10 @@ export default function index() {
                                     YEASTAR P-SERIES PBX SYSTEM
                                 </h1>
                                 <p>
-                                    Technologies are constantly revolutionizing the way businesses communicate and interact. More and more SMEs realize that they need something beyond just a PBX in their digital transformation strategy. The aspiration to remain competitive press them to look for a system that breaks down the barriers of distance and embraces flexibility and customization.
+                                The way companies communicate and engage is continuously changing as a result of technological advancements. The more SMEs are recognizing that their strategic planning process requires more than a PBX. They are looking for a system that breaks through distance constraints and welcomes flexibility and customization in order to stay competitive.
                                 </p>
                                 <p>
-                                    For SMEs that have higher expectations of a sophisticated communication system, they need a professional, reliable, and adaptable PBX system in place. Lack of efficiency enhancing features, poor user experience, and inability to adapt to the fast-paced business environment make a communication system less desirable.
+                                Professional, reliable, and customizable PBX systems are required for SMEs with higher demands of a comprehensive communication system. A communication system is less attractive if it lacks efficiency-enhancing features, has a bad user experience, and can't adapt to the fast-paced corporate environment.
                                 </p>
                             </div>
                         </div>
@@ -42,11 +42,7 @@ export default function index() {
                                     PBX PLUS MORE VALUES AND POSSIBILITIES
                                 </h2>
                                 <p>
-                                    Yeastar addresses the challenges through the P-Series PBX System, a “PBX Plus More” product that allows businesses to have uninterrupted communications at all times in a fully fledged system. Beyond just a PBX, it provides SMEs with visualized call management, advanced call center features, unified communications applications, anywhere anytime<br />
-                                    connectivity, and everything practical yet outperforming across mobiles, desktops, and browsers.<b />
-                                    Balancing costs and future growth, P-Series requires a lower total cost of ownership, less training, and fewer management efforts, whether making a Phone System transition or starting from the ground up.<br />
-                                    Third-party communication resources including IP Phones, CRM, collaboration tools can also be integrated easily with PSeries to form a cohesive communication and collaboration solution, and break the boundary of systems.
-                                    Optimized with the right set of features, ease of use and management, future-proof flexibility and adaptability, P-Series unifies voice, mobility, presence, and collaboration to push boundless communications for SMEs.
+                                PBX Plus More" product from Yeastar, highlights the issue by allowing organizations to have continuous conversations at all times in a fully functional system. It offers SMEs more than just a PBX; it also includes call visualization, comprehensive call center tools, unified communications applications, anywhere, anytime access, and everything practical while outperforming across mobiles, desktops, and browsers. P-Series demands a lower total cost of ownership, less training, and fewer management tasks, whether making a Phone System transition or starting from scratch, to balance expenses and future growth.
                                 </p>
                             </div>
                         </div>
@@ -317,17 +313,16 @@ export default function index() {
                         <div className="col-12 text-center">
                         <h1 className="yeastar-series-headings">Integrated Video Conferencing</h1>
                             <h4>Interact and Collaborate in Real time</h4>
-                            <p>Not only large enterprises, SMEs also need face-to-face conversations to bring teams and customers closer together regardless of their locations. P-Series PBX System introduces an integrated web-based video conferencing solution with screen sharing and team chat for SMEs to easily conduct multi-party virtual meetings a smarter way to get things done quicker, enhance team collaboration, and build stronger business relationships.</p>
+                            <p>Face-to-face interactions are required not just by huge corporations, but also by SMEs to bring teams and customers closer together, regardless of their geographical location. The P-Series PBX System now includes an integrated web-based video conferencing solution with screen sharing and team chat for SMEs to conduct multi-party virtual meetings in a better way to get things done faster, improve team collaboration, and strengthen business partnerships.</p>
                         </div>
                         <div className="col-12 col-md-5 Integrated-discription">
                             <div class="">
                                 <ul>
-                                    <li>Initiate and participate meetings right from the browser</li>
-                                    <li>No need for additional applications and plugins</li>
+                                    <li>No need for extra software or plugins to start and participate in meetings.</li>
                                     <li>Invite your colleagues and clients via meeting links</li>
-                                    <li>Hear and see other participants in full HD</li>
-                                    <li>Share your screen for live presentation</li>
-                                    <li>Group chat instantly in the sidebar</li>
+                                    <li>In full HD, hear and see other participants.</li>
+                                    <li>For a live presentation, share your screen with others.</li>
+                                    <li>n the sidebar, you can have a group chat right now.</li>
                                 </ul>
                             </div>
                         </div>
@@ -342,9 +337,9 @@ export default function index() {
                     <div className="row">
                         <div className="col-12 col-md-5 Integrated-discription">
                             <div class="">
-                            <h1 className="yeastar-series-headings">Operator Panel</h1>
+                            <h1 className="yeastar-series-headings">Operator Panel for more efficient call management</h1>
                                 <h4>for More Effective Call Handling</h4>
-                                <p>The Operator Panel is a visualized console for receptionists to quickly manage incoming calls based on the real-time availability of employees. Simply drag and drop to dispatch calls to extensions, ring groups, and queues all from your web browser. Advanced call controls, such as transfer, park, pick up, hang up, monitor, etc., are also supported to provide the utmost convenience. For more information please visit our bellow website</p>
+                                <p>The Operators Interface is a graphical interface that allows receptionists to swiftly manage incoming calls depending on staff' real-time availability. From your web browser, simply drag and drop calls to extensions, ring groups, and queues. To provide maximum convenience, advanced call controls such as transfer, park, pick up, hang up, monitor, and so on are also enabled. Please see our website for further information.</p>
                             </div>
                         </div>
                         <div className="col-12 col-md-7">
@@ -358,7 +353,7 @@ export default function index() {
                     <div className="row">
                         <div className="col-12">
                             <h2 className="yeastar-series-headings">Yeastar S Series PBX Systems</h2>
-                            <p>Easy to use, reliable, and feature-rich, S-Series IP PBX is designed to help small and medium businesses make a giant leap in efficiency and cost savings. The innovative S-Series unleashes the power of unified communications, provides great flexibility with field-upgradable modular design, and allows you to connect to traditional lines, VoIP lines, and cellular networks. Perfectly future-proof, S-Series converges business-enhancing features with free software updates to grow with your business and assures reliability over the years.</p>
+                            <p>The S-Series IP PBX, which is simple to use, dependable, and feature-rich, is intended to assist small and medium-sized enterprises in making significant gains in efficiency and cost savings. The unique S-Series unlocks the power of unified communications, offers considerable flexibility with field-upgradable modular design, and connects to traditional lines, VoIP lines, and cellular networks. S-Series is completely future-proof, combining business-enhancing features with free software upgrades to grow with your firm and ensure stability over time.</p>
                         </div>
                         <table class="table table-dordred tableizer-table2">
                             <thead>
@@ -560,12 +555,12 @@ export default function index() {
                     <div className="row">
                         <div className="col-12">
                             <h1 className="yeastar-series-headings">Yeastar Gateways</h1>
-                            <p>Yeastar VoIP Gateways bridge the gap between FXS, FXO, PRI, BRI, GSM, WCDMA, 4G LTE, and IP networks to reduce operating costs and deliver the convenience of traditional telephony circuits to a wide range of manufacturer VoIP phone systems. These gateways are the best VOIP solution in UAE region.</p>
+                            <p>Yeastar VoIP Gateways connect FXS, FXO, PRI, BRI, GSM, WCDMA, 4G LTE, and IP networks to minimize operational expenses and provide the convenience of traditional telephony circuits to a variety of manufacturer VoIP phone systems. These gateways are the most effective VOIP solutions in the UAE region.</p>
                         </div>
                         <div className="col-12 col-md-6">
                             <div className="gateways-heading">
                                 <h2 className="yeastar-series-headings">TA Series FXO VoIP Gateway</h2>
-                                <p>Yeastar TA FXO VoIP Gateways provides 4, 8, or 16 ports to connect analog telephone lines or PABX extension interface to VoIP networks. It is a cost-effective and reliable solution for office-to-office voice connectivity in UAE Africa region.</p>
+                                <p>Yeastar TA FXO VoIP Gateways provide four, eight, or sixteen ports for connecting analogue phone lines or PABX extension interfaces to VoIP networks. For office-to-office voice connectivity in the UAE Africa region, it is a cost-effective and dependable solution.</p>
                             </div>
                             <div className="">
                                 <table class="table table-dordred tableizer-table2 tableizer-table3">
@@ -615,7 +610,7 @@ export default function index() {
                         <div className="col-12 col-md-6">
                             <div className="">
                                 <h2 className="yeastar-series-headings">Yeastar TG Series VOIP Gateway</h2>
-                                <p>Yeastar TG is a series of VoIP GSM/3G/4G gateway connecting GSM or 3G WCDMA or 4G LTE network to VoIP network directly and can support two-way communication: GSM/3G/TG to VoIP or VoIP to GSM/3G/4G. It is the best solution ever in UAE to connect IP-based telephone systems, and soft-switches to GSM/3G/4G network; and also the best fallback solution when landline goes down.</p>
+                                <p>Yeastar TG is a VoIP GSM/3G/4G gateway that connects GSM, 3G WCDMA, or 4G LTE networks directly to VoIP networks and burdens communication: GSM/3G/TG to VoIP or VoIP to GSM/3G/4G. It is the greatest solution for connecting IP-based telephone systems and soft-switches to GSM/3G/4G networks in the UAE, as well as the best fallback solution when the landline goes down.</p>
                             </div>
                             <div className="">
                                 <table class="table table-dordred tableizer-table3 tableizer-table2">
@@ -669,7 +664,7 @@ export default function index() {
                         <div className="col-12 col-md-6">
                             <div className="">
                                 <h2 className="yeastar-series-headings">Yeastar TA Series FXS VoIP Gateway</h2>
-                                <p>Yeastar TA Analog VoIP Gateways are cutting-edge products that connect legacy telephones, fax machines and PBX systems with IP telephony networks and IP-based PBX systems. Featuring rich functionalities and easy configuration, TA is ideal for small and medium enterprises that wish to integrate a traditional phone system into IP-based system. TA helps them to preserve previous investment on legacy telephone system and reduce communication costs significantly with the true benefits of VoIP.</p>
+                                <p>Yeastar TA Analog VoIP Gateways are cutting-edge solutions that connect traditional telephones, fax machines, and PBX systems to IP telephony networks and IP-based PBX systems. TA is suitable for small and medium businesses who want to integrate a traditional phone system into an IP-based system, thanks to its extensive functionality and simple implementation. With the genuine benefits of VoIP, TA assists them in preserving their past investment in conventional telephone systems while drastically lowering communication costs.</p>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -727,7 +722,7 @@ export default function index() {
                             <div className="">
 
                                 <h2 className="yeastar-series-headings">E1/T1/PRI VoIP Gateway</h2>
-                                <p>TE VoIP E1/ T1 /J1 gateway (VoIP to E1/T1/J1, and E1/T1/J1 to VoIP) supports up to 30/60 concurrent calls. TE Series offers SMBs cost effective additions to a legacy telephone system to bring the true benefits of VoIP in UAE. Yeastar ISDN VoIP Gateways bridge the gap between traditional ISDN telephony connections such as common RJ-48c / T1 interfaces to provide dial tone to most VoIP PBX phone systems including Yeastar IP PBX.</p>
+                                <p>Up to 30/60 concurrent calls are supported by the TE VoIP E1/T1/J1 gateway (VoIP to E1/T1/J1, and E1/T1/J1 to VoIP). The TE Series provides SMBs with cost-effective upgrades to their existing phone systems, allowing them to reap the full benefits of VoIP in the UAE. ISDN VoIP Gateways from Yeastar give dial tone to most VoIP PBX phone systems, including Yeastar IP PBX, by bridging the gap between classic ISDN telephone connections like common RJ-48c / T1 interfaces.</p>
                             </div>
                             <table class="table table-dordred tableizer-table3 tableizer-table">
                                 <thead>

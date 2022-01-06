@@ -39,11 +39,6 @@ export default function Solutions() {
                     Yealink-Video Conferecing{" "}
                     <div className="Yealink-header-border" />
                   </h1>
-                  <p>
-                    {" "}
-                    When yuo is simply Dummy text of the printing and
-                    typesetting industry.
-                  </p>
                 </div>
               </div>
               <div className="div-2 col-lg-6">
@@ -293,107 +288,36 @@ export default function Solutions() {
               <div className="iphone-image col-lg-3"><img src="/image/Yealink-VC200.jpg" /></div>
               <div className="iphone-image col-lg-3"><img src="/image/Yealink-W80-Dect.jpg" /></div>
             </div>
-            <div className="View-more-btn">
-              <button className="btn btn-primary btn-lg see-more see-more-2" type="submit">View more
-              </button></div>
           </div>
         </div>
       </section>
-
-
-
-    
-
-      <section className="section-3">
-        <div className="container">
-          <div className="row">
-            <div className="header">
-              <h2>
-                How can we help your Business?{" "}
-                <div className="header-bottom-border" />
-              </h2>
-            </div>
-            <div className="paragaph-1">
-              <p>
-                We are a team of astronauts (not literally) who are building
-                blockchain-powered solutions to shoot for the moon!{" "}
-              </p>
-            </div>
-            <div className="card-main-div">
-              <div className="card first-card col-sm-12 col-xs-12">
-                <div className="card-body first-card-body">
-                  <div className="icon">
-                    <img
-                      src="/image/loupe.png"
-                      className="img-fluid icon-inner-image"
-                    />
-                  </div>
-                  <h4>Find out what you need</h4>
-                  <p className="card-text">
-                    We present you a proposal and discuss nitty-grtty like
-                  </p>
-                </div>
-              </div>
-              <div className="card first-card col-sm-12 col-xs-12">
-                <div className="card-body first-card-body">
-                  <div className="icon">
-                    <img
-                      src="/image/settings.png"
-                      className="img-fluid icon-inner-image"
-                    />
-                  </div>
-                  <h4>Work out the details</h4>
-                  <p className="card-text">
-                    Communication protocols apart from engagment models
-                  </p>
-                </div>
-              </div>
-              <div className="card first-card col-sm-12 col-xs-12">
-                <div className="card-body first-card-body">
-                  <div className="icon">
-                    <img
-                      src="/image/logo-3.png"
-                      className="img-fluid icon-inner-image"
-                    />
-                  </div>
-                  <h4>We get to work fast</h4>
-                  <p className="card-text">
-                    Protocols apart from engage models,pricing billing
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="logo-section">
         <div className="container">
           <div className="row logo-slider">
             <Slider {...settings2} className="">
               <div className="slick-slide">
-                <img src="/image/1.jpg" alt="1.jpg" />
+                <img src="/image/1.jpg" alt="1.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/2.jpg" alt="2.jpg" />
+                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/5.jpg" alt="5.jpg" />
+                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/6.jpg" alt="6.jpg" />
+                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/8.jpg" alt="8.jpg" />
+                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" />
+                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/11.jpg" alt="11.jpg" />
+                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" />
+                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image"/>
               </div>
             </Slider>
           </div>

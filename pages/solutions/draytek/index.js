@@ -12,9 +12,10 @@ export default function index() {
                         </div>
                         <div className="col-12 col-md-7 draytek-products">
                             <div>
-                                <h3>DrayTek Channel Champ 2019</h3>
+                                <h2>DrayTek Solutions</h2>
                                 <p>
-                                    Draytek's Channel Champs campaign encourages local system integrators, resellers and retailers to attain the best sales output to win the annual Channel Champion award. The three-and-a-half-month-long event is annually organized by DrayTek in partnership with DVCOM Technology to focus on the System Integrators and Network Solutions Providers in the MEA region. Every year, DrayTek identifies its best associates to nurture and encourage through this event while providing all participating entities with opportunities to transform their business modules and find value-added partners and enterprising associates.</p>
+                                    DrayTek, a leading developer of cutting-edge firmware and high-quality equipment, is a reliable provider of cutting-edge networking and telecommunications for SOHO and SMB. DrayTek's solutions, which range from enterprise-level firewalls to mission-critical bandwidth management, complete VPN services, and triple play routers, can currently satisfy market demand and exceed customer expectations.
+                                    DrayTek also provides centralised management software for Vigor Routers and VigorAPs. This is an integrated solution that allows you to configure, monitor, and maintain numerous Vigor devices from a single location.</p>
                             </div>
                         </div>
                     </div>
@@ -27,7 +28,7 @@ export default function index() {
                         <div className="col-12">
                             <div className="text-center multipal-icon-heading">
                                 <h1 className="yeastar-series-headings">
-                                    Main Reasons to Choose DrayTek
+                                Why Choose DrayTek
                                 </h1>
                             </div>
                         </div>
@@ -37,10 +38,10 @@ export default function index() {
                                     <img src="/image/logo/staty-conected.png" className="" />
                                     <div>
                                         <h4>
-                                            Stay Connected
+                                        Keep in Touch
                                         </h4>
                                         <p>
-                                            Our mid-size business solution offers multi-WAN or dual-WAN interface for the redundancy/load-balancing to ensure the stable Internet access. The USB 2.0 port(s) can use 3G/4G LTE USB mobile as another access backup option.</p>
+                                        content: Our mid-sized company solution includes a multi-WAN or dual-WAN interface for redundancy and load balancing, ensuring reliable Internet connectivity. As a backup access option, the USB 2.0 port(s) can be used with a 3G/4G LTE USB mobile.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -48,20 +49,22 @@ export default function index() {
 
                                     <div>
                                         <h4>
-                                            Business Growth
+                                        Business Development
                                         </h4>
                                         <p>
-                                            Powerful CPE to handle the ultra high-speed bandwidth would become the fundamental requirement. As choosing the multi-WAN models, the organization can add more WAN links to increase the bandwidth scalability for business growth needs.</p>
+                                        Content: A powerful CPE capable of handling ultra-high-speed bandwidth would become a must-have. When using multi-WAN models, the company may add extra WAN lines to boost bandwidth scalability for future business demands.
+
+</p>
                                     </div>
                                 </li>
                                 <li>
                                     <img src="/image/logo/byod.png" className="" />
                                     <div>
                                         <h4>
-                                            Bring Your Own Device (BYOD)
+                                        Bring Your Own Device (BYOD)
                                         </h4>
                                         <p>
-                                            BYOD increases the productivity of employees according to recent survey. In addition to the policy enforcement, you also need a secure and efficient Wi-Fi office environment for all their network connected devices.
+                                        Content: According to a recent report, bringing your own device enhances staff productivity. You'll also need a safe and efficient Wi-Fi office environment for all of their network-connected devices in addition to policy enforcement.
                                         </p>
                                     </div>
                                 </li>
@@ -73,10 +76,12 @@ export default function index() {
                                     <img src="/image/logo/squirty-network.png" className="" />
                                     <div>
                                         <h4>
-                                            Secured Network
+                                        Protected Network
                                         </h4>
                                         <p>
-                                            Operation in the secured network prevents considerable lost caused by outside attacks. With the robust firewall policies, IT can even establish a productive workplace to lower the management efforts.</p>
+                                        Content: The operation of the network in a secure environment eliminates significant losses caused by external threats. IT may even develop a productive workplace to reduce management efforts thanks to the comprehensive firewall restrictions.
+
+</p>
                                     </div>
                                 </li>
                                 <li>
@@ -84,20 +89,20 @@ export default function index() {
 
                                     <div>
                                         <h4>
-                                            Disaster Recovery
+                                        Recovering from a disaster
                                         </h4>
                                         <p>
-                                            To prevent the nightmare of gateway temporary out-of-service, IT would require the disaster recovery feature available for the ideal solution. The backup gateway needs to take care of all routing services seamlessly and immediately.</p>
+                                        Content: To avoid the horror of a gateway going offline for an extended period of time, IT would need the appropriate solution's disaster recovery functionality. All routing services must be handled effortlessly and instantly by the backup gateway.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <img src="/image/logo/inter-office.png" className="" />
                                     <div>
                                         <h4>
-                                            Inter-office / Remote Access
+                                        Remote Access / Inter-office
                                         </h4>
                                         <p>
-                                            Your organization gets better collaboration among employees in different physical locations. Employees are capable to work anytime in anywhere to enhance the work-life balance.
+                                        Content: Employees at various physical locations collaborate more effectively in your company. Employees may work from anywhere at any time to improve their work-life balance.
                                         </p>
                                     </div>
                                 </li>

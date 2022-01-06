@@ -14,17 +14,17 @@ export default function index() {
                                     One Contact Center software, endless channels
                                 </h3>
                                 <p>
-                                    XCALLY has been deployed by Call centers worldwide and in over 60 countries, mainly due to its fantastic features such as Omnichannel modules, IVR system, Contact management, Outbound predictive dialer, Scripting tool, Realtime monitoring, Analytics and reporting, Internal messenger and 3rd-party apps integrations with ASR and TTS, Bots, SMS, Ticketing, Social media and Messaging Apps, along with custom Dashboards and major CRMs as well.
+                                XCALLY has been used by call centers in over 60 countries due to its incredible features like Omnichannel modules, IVR system, Contact management, Outbound predictive dialer, Scripting tool, Realtime monitoring, Analytics and reporting, Internal messenger and 3rd-party app integrations with ASR and TTS, Bots, SMS, Ticketing, Social media and Messaging Apps, as well as custom Dashboards and major CRMs.
                                 </p>
                                 <h4>
                                     One cannot go wrong, when you choose Xcally.
                                 </h4>
-                                <p>An effective customer service provider meets their customers across the popular channels available and where they feel comfortable.</p>
-                                <p>Xcally allows you to focus on the popular channels specially where your customers are found.</p>
-                                <p>You get to know your customers better and you can let them interact and connect with you across their favored channel to communicate.</p>
-                                <p>In these highly competitive times, today's customers expect to be able to communicate across different channels and devices available.</p>
-                                <p>XCALLY modules Voice, Web Chat, Email, FAX, SMS are already available in the modules available and you can add as many channels as required, using to the powerful Xcally Open Channel tool.</p>
-                                <p>The XCALLY Features & Plans have been designed for every kind of Customer Care.</p>
+                                <p>A excellent & efficient customer service provider connection with their consumers across the most popular channels and in the places where they feel most at ease.</p>
+                                <p>Xcally enables you to concentrate on the most popular channels, particularly those where your clients may be discovered.</p>
+                                <p>You have a deeper understanding of your clients and may allow them to interact and connect with you via their preferred communication channel.</p>
+                                <p>Customers expect to be able to interact across many channels and devices in these highly competitive times.</p>
+                                <p>The XCALLY modules Voice, Web Chat, Email, FAX, and SMS are already available, and you may create as many channels as you need using the sophisticated Xcally Open Channel tool.</p>
+                                <p>The XCALLY Features & Plans were created with every type of customer care in mind.</p>
                             </div>
                         </div>
                         <div className="col-12 col-md-4">

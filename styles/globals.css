@@ -395,6 +395,10 @@ background-color: #fff;
 background-color: transparent;
 width: 100%;
 }
+.slick-initialized .slick-slide .slick-slide-image{
+width: 160px;
+margin: auto;
+}
 .logo-section {
 background-color: #f5f5f5;
 }
@@ -408,7 +412,6 @@ margin-bottom: 0;
 width: 180px;
 background-color: transparent;
 }
-
 .slick-slider .slick-list,
 .slick-slider .slick-track {
 padding: 0;
@@ -731,6 +734,10 @@ margin-bottom: 15px;
 background-color: #f5f5f5;
 padding: 80px 0;
 }
+.iphone-image:hover{
+  box-shadow: 0 0 15px #adabab;
+  border-radius: 0;
+  }
 .iphone-main-div {
 width: 100%;
 display: flex;
@@ -1789,9 +1796,11 @@ margin-bottom: 0;
   font-size: 20px;
     color: #393431;
 }
-.draytek-products h3{
+.draytek-products h2{
   color: #393431;
   font-weight: bold;
+  font-size: 40px;
+  text-transform: capitalize;
 }
 .draytek-products-section{
   padding: 30px 0 20px;

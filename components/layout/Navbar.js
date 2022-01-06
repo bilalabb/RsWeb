@@ -59,12 +59,17 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li class="nav-item dropdown dropdown-menu-costam">
-                    <Link href="/solutions">
+                    <Link href="">
                       <a class="nav-link " href="">
                         Solutions
                       </a>
                     </Link>
                     <ul class="dropdown-menu">
+                    <li>
+                      <Link href="/solutions/yealinkconference">
+                        <a class="dropdown-item" href="">Yealink-Video Conferecing</a>
+                        </Link>
+                        </li>
                       <li>
                       <Link href="/solutions/yeastarseries">
                         <a class="dropdown-item" href=""> Yeastar-PBX System</a>
