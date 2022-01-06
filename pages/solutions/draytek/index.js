@@ -7,7 +7,7 @@ export default function index() {
             <section className="draytek-products-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 draytek-products-top-image">
                             <img src="/image/draytek-products.png" className="img-fluid" />
                         </div>
                         <div className="col-12 col-md-7 draytek-products">
@@ -117,27 +117,27 @@ export default function index() {
                         <div className="col-12">
                             <div className="">
                                 <ul className="logo-images">
-                                    <li>
+                                    <li className="col-6">
                                         <span><img src="/image/logo/vpn-data-protect.png" className="img-fluid" /></span>
                                         <p>VPN</p>
                                     </li>
-                                    <li>
+                                    <li className="col-6">
                                         <span><img src="/image/logo/vdsl2.png" className="img-fluid" /></span>
                                         <p>VDSL2</p>
                                     </li>
-                                    <li>
+                                    <li className="col-6">
                                         <span><img src="/image/logo/fire-wall.png" className="img-fluid" /></span>
                                         <p>Firewall & Content Filter</p>
                                     </li>
-                                    <li>
+                                    <li className="col-6">
                                         <span><img src="/image/logo/web-potal.png" className="img-fluid" /></span>
                                         <p>web-potal.png</p>
                                     </li>
-                                    <li>
+                                    <li className="col-6">
                                         <span><img src="/image/logo/free-cloud.png" className="img-fluid" /></span>
                                         <p>FREE DDNS service</p>
                                     </li>
-                                    <li>
+                                    <li className="col-6">
                                         <span><img src="/image/logo/bandwidth.png" className="img-fluid" /></span>
                                         <p>Bandwidth Management</p>
                                     </li>

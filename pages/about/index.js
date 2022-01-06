@@ -14,11 +14,36 @@ export default function About() {
   var settings2 = {
     dots: false,
     infinite: true,
+    autoplay:true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
     nextArrow: <FontAwesomeIcon icon={faChevronRight} />,
     prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
+    responsive: [
+      {
+          breakpoint: 1024,
+          settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+          }
+      },
+      {
+          breakpoint: 600,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      },
+      {
+          breakpoint: 480,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      }
+
+]
   };
 
   return (
@@ -60,7 +85,7 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
             <p>At RS Technology, We aim to build credibility by keeping our promises, acting with honesty and integrity, and achieving corporate goals only via ethical behavior. RS Technology is devoted to establishing an atmosphere of dignity and respect.</p>
           </div>
           <div className="col-md-6 col-12 ">
-            <img src="/image/shake-hand.jpg" />
+            <img src="/image/shake-hand.jfif" />
           </div>
         </div>
       </section>
@@ -138,28 +163,28 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
           <div className="row logo-slider">
             <Slider {...settings2} className="">
               <div className="slick-slide">
-                <img src="/image/1.jpg" alt="1.jpg" />
+                <img src="/image/1.jpg" alt="1.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/2.jpg" alt="2.jpg" />
+                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/5.jpg" alt="5.jpg" />
+                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/6.jpg" alt="6.jpg" />
+                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/8.jpg" alt="8.jpg" />
+                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" />
+                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/11.jpg" alt="11.jpg" />
+                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image"/>
               </div>
               <div className="slick-slide">
-                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" />
+                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image"/>
               </div>
             </Slider>
           </div>

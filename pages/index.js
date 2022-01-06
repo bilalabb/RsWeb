@@ -32,6 +32,7 @@ export default function Home() {
   var settings2 = {
     dots: false,
     infinite: true,
+    autoplay:true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,

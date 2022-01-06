@@ -11,11 +11,36 @@ export default function Solutions() {
   var settings2 = {
     dots: false,
     infinite: true,
+    autoplay:true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
     nextArrow: <FontAwesomeIcon icon={faChevronRight} />,
     prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
+    responsive: [
+      {
+          breakpoint: 1024,
+          settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+          }
+      },
+      {
+          breakpoint: 600,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      },
+      {
+          breakpoint: 480,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      }
+
+]
   };
   var settings3 = {
     dots: false,
@@ -25,27 +50,54 @@ export default function Solutions() {
     slidesToScroll: 1,
     nextArrow: <FontAwesomeIcon icon={faChevronRight} />,
     prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
-  };
+    responsive: [
+      {
+          breakpoint: 1024,
+          settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+          }
+      },
+      {
+          breakpoint: 600,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      },
+      {
+          breakpoint: 480,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }
 
+]
+  };
   return (
     <>
       <section className="solutions-section-1">
         <div className="container">
           <div className="row">
-            <div className="solutions-heading col-lg-12">
-              <div className="div-1 col-lg-6">
+              <div className="div-1 col-lg-6 yealink-header-div col-12">
                 <div className="Yealink-header">
                   <h1>
                     Yealink-Video Conferecing{" "}
-                    <div className="Yealink-header-border" />
                   </h1>
                 </div>
               </div>
-              <div className="div-2 col-lg-6">
-                <img src="/image/MicrosoftTeams-image-3.png" />
+              <div className="div-2 col-lg-6 col-12">
+                <img src="/image/MicrosoftTeams-image-3.png" className="img-fluid"/>
               </div>
             </div>
-          </div>
         </div>
       </section>
 
@@ -60,17 +112,10 @@ export default function Solutions() {
             </div>
             <div className="paragaph-2">
               <p>
-                Yealink high-quality portfolio for Microsoft Teams are
-                future-proof, Teams-powered phones and Microsoft Teams Rooms.
-                The Teams tailored experience to help our joint customers
-                realize the vision of Intelligent Communications backed by a top
-                tier one-stop UC endpoint solution provider.
+               Yealink excellent portfolio for Microsoft Teams is future-evidence, with Teams-controlled telephones and Microsoft Teams Rooms. The Teams fitted experience to assist our joint clients with understanding the vision of Intelligent Communications upheld by a top-level one-stop UC endpoint arrangement supplier.
               </p>
               <p>
-                Yealink is the first provider offering one-stop audio/video
-                certified Microsoft Teams devices, covering scenarios of
-                offices, open work space, huddle rooms and large conference
-                rooms.
+              Yealink is the principal supplier offering one-stop sound/video ensured Microsoft Teams gadgets, covering situations of workplaces, open work areas, group rooms and enormous gathering rooms.
               </p>
             </div>
             <div className="icon-main-div">
@@ -90,7 +135,7 @@ export default function Solutions() {
                     className="img-fluid icon-inner-image"
                   />
                 </div>
-                <h4>Broad ProtFolio</h4>
+                <h4>Brand Portfolio</h4>
               </div>
               <div className="icon-1">
                 <div className="icon">
@@ -115,112 +160,68 @@ export default function Solutions() {
                   <img src="/image/MicrosoftTeams-image-3.png" />
                 </div>
 
-                <Slider {...settings3} className="logo-slider-2">
+                <Slider {...settings2} className="logo-slider-2">
                   <div className="slick-image-slide">
-                    <img src="/image/CP900-ms-teams.jpg" alt="" />
+                    <img src="/image/CP900-ms-teams.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
-                    <img src="/image/cp960-ms-teams.jpg" alt="" />
+                    <img src="/image/cp960-ms-teams.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
-                    <img src="/image/T58A-ms-teams.jpg" alt="" />
+                    <img src="/image/T58A-ms-teams.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
-                    <img src="/image/T58A-ms-teams2.jpg" alt="" />
+                    <img src="/image/T58A-ms-teams2.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
-                    <img src="/image/Yealink-VC200.jpg" alt="" />
+                    <img src="/image/Yealink-VC200.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
-                    <img src="/image/Yealink-53P-Dect.jpg" alt="" />
+                    <img src="/image/Yealink-53P-Dect.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
-                    <img src="/image/Yealink-T54w.jpg" alt="" />
+                    <img src="/image/Yealink-T54w.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
-                    <img src="/image/Yealink-T57w.jpg" alt="" />
+                    <img src="/image/Yealink-T57w.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
-                    <img src="/image/Yealink-T58A-Right.jpg" alt="" />
+                    <img src="/image/Yealink-T58A-Right.jpg" alt=""  className="logo-slider3-image"/>
                   </div>
                   <div className="slick-image-slide">
                     <img
                       src="/image/Yelaink-T46S.jpg"
-                      alt="Yelaink-T46S.jpg"
+                      alt="Yelaink-T46S.jpg"  className="logo-slider3-image"
                     />
                   </div>
                 </Slider>
-
-                {/* <div className="logo-slider-2 width-0">
-                  <div className="slick-image-slide">
-                    <img src="assets/image/CP900-ms-teams.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img src="assets/image/cp960-ms-teams.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img src="assets/image/T58A-ms-teams.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img src="assets/image/T58A-ms-teams2.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img src="assets/image/Yealink-VC200.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img src="assets/image/Yealink-53P-Dect.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img src="assets/image/Yealink-T54w.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img src="assets/image/Yealink-T57w.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img src="assets/image/Yealink-T58A-Right.jpg" alt="" />
-                  </div>
-                  <div className="slick-image-slide">
-                    <img
-                      src="/image/Yelaink-T46S.jpg"
-                      alt="Yelaink-T46S.jpg"
-                    />
-                  </div>
-                </div> */}
               </div>
               <div className="high-qualty-text">
                 <div className="Quality-heading">
                   <h2>High Quality</h2>
                   <p>
-                    High quality Through Yealink Device Management
-                    Platform/Cloud Service, you can remotely manage, monitor,
-                    configure, update and diagnose all Yealink audio and video
-                    devices peripherals.
+                   Superior grade Through Yealink Device Management Platform/Cloud Service, you can remotely make due, screen, arrange, update and analyze all Yealink sound and video gadgets peripherals.
                   </p>
                   <div className="high-qualty-border-bottom" />
                 </div>
                 <div className="Quality-heading">
                   <h2>Easy to Start and Manage</h2>
                   <p>
-                    HD audio quality, Yealink noise proof technology, HD optical
-                    cameras, offering a better user experience.
+                  HD sound quality, Yealink clamor verification innovation, HD optical cameras, offering a superior client experience.
                   </p>
                   <div className="high-qualty-border-bottom" />
                 </div>
                 <div className="Quality-heading">
                   <h2>Premium Audio and Video Meeting Experience</h2>
                   <p>
-                    Microsoft Teams certified high quality components,
-                    consistent and beautiful product design, backed by No.1 SIP
-                    phone provide.
+                  Microsoft Teams confirmed top notch parts, reliable and lovely item configuration, upheld by No.1 SIP telephone give.
                   </p>
                   <div className="high-qualty-border-bottom" />
                 </div>
                 <div className="Quality-heading">
                   <h2>Device Management Platform</h2>
                   <p>
-                    Integrated consistent Teams-tailored user experience for
-                    calling and meeting across all the devices, MVC Series one
-                    touch to join the meeting with the touch-control.
+                  Coordinated reliable Teams-customized client experience for assembling and conference across every one of the gadgets, MVC Series one touch to get the gathering together with the touch-control.
                   </p>
                   <div className="high-qualty-border-bottom" />
                 </div>
@@ -241,17 +242,16 @@ export default function Solutions() {
               <div className="Video-conferencing-div">
                 <h2> Voice Conferencing System </h2>
                 <p>
-                  Yealink VoIP phones are affordable, high quality, feature rich solutions for both small and large organisations. Yealink IP Phones can work seamlessly with a vast number of compatible IP PBXs that support Session Initiation Protocol (SIP) and also hosted PBX providers.    
+                Yealink VoIP telephones are reasonable, top notch, include rich answers for both little and enormous associations. Yealink IP Phones can work consistently with an immense number of viable IP PBXs that help Session Initiation Protocol (SIP) and furthermore facilitated PBX suppliers.  
                 </p>
                 <p>
-                  Yealink offers a number of different IP Phone series’s, which includes the T2, T4 and T5 product ranges, all offering different solutions depending on your requirements.
-                  For full series of Yealink IP phone for voice solutions please visit our Yealink Website
+                Yealink offers various diverse IP Phone series, which incorporate the T3, T4, and T5 item goes, all contributing various arrangements relying upon your necessities. For full series of Yealink IP telephones for voice arrangements if it's not too much trouble, visit our Yealink Website.
                 </p>
               </div>
               <div className="Video-conferencing-div">
                 <h2> Video Conferencing System </h2>
                 <p>
-                  Yealink IP Video Phone solutions in Dubai is based on open standards, providing excellent compatibility and interoperability with worldwide leading UC platforms in UAE. Fully integrated with Microsoft Teams and cover all the meeting room size, Yealink video device solutions comes with full package devices offer including everything you need for a Microsoft Teams meeting For full series of Yealink IP phone for video solutions please visit our Yealink Website
+                Yealink IP Video Phone arrangements in Pakistan depend on open principles, furnishing brilliant similarity and interoperability with overall driving UC stages in Pakistan. Completely incorporated with Microsoft Teams and cover all the gathering room sizes, Yealink video gadget arrangements accompany full bundle gadgets offer including all that you really want for a Microsoft Teams meeting For full series of Yealink IP telephones for video arrangements kindly visit our Yealink Website.
                 </p>
               </div>
             </div>
