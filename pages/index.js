@@ -29,7 +29,6 @@ export default function Home() {
     nextArrow: false,
     prevArrow: false,
   };
-
   var settings2 = {
     dots: false,
     infinite: true,
@@ -38,8 +37,31 @@ export default function Home() {
     slidesToScroll: 1,
     nextArrow: <FontAwesomeIcon icon={faChevronRight} />,
     prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
-  };
+    responsive: [
+      {
+          breakpoint: 1024,
+          settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+          }
+      },
+      {
+          breakpoint: 600,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      },
+      {
+          breakpoint: 480,
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          }
+      }
 
+]
+  };
   return (
     <>
       <section className="slider-section">
@@ -446,11 +468,11 @@ export default function Home() {
                 Upcoming Products <div className="header-bottom-border" />
               </h2>
             </div>
-            <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <p>
+            <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12 m-2How can we help your Business?">
+              {/* <p>
                 We are a team of astronauts (not literally) who are building
                 blockchain-powered solutions to shoot for the moon!{" "}
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ export default function Navbar() {
     <>
       <section className="nav-section">
         <div className="container">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light col-lg-12">
+          <nav className="navbar navbar-expand-lg navbar-light col-lg-12">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">
                 <img
@@ -58,12 +58,34 @@ export default function Navbar() {
                       <a className="nav-link">About Us</a>
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li class="nav-item dropdown dropdown-menu-costam">
                     <Link href="/solutions">
-                      <a className="nav-link" >
+                      <a class="nav-link " href="">
                         Solutions
                       </a>
                     </Link>
+                    <ul class="dropdown-menu">
+                      <li>
+                      <Link href="/solutions/yeastarseries">
+                        <a class="dropdown-item" href=""> Yeastar-PBX System</a>
+                        </Link>
+                        </li>
+                      <li>
+                      <Link href="/solutions/milesight">
+                        <a class="dropdown-item" href="#">Milesight-Surveillance System</a>
+                        </Link>
+                        </li>
+                        <li>
+                      <Link href="/solutions/xcally">
+                        <a class="dropdown-item" href="#">XCALLY-Call Center Solution</a>
+                        </Link>
+                        </li>
+                        <li>
+                      <Link href="/solutions/draytek">
+                        <a class="dropdown-item" href="#">Draytek VPN Router</a>
+                        </Link>
+                        </li>
+                    </ul>
                   </li>
                   <li className="nav-item">
                     <Link href="/contactus">

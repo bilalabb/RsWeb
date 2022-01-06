@@ -90,7 +90,7 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
         </div>
       </section>
 
-      <section className="section-3">
+      {/* <section className="section-3">
         <div className="container">
           <div className="row">
             <div className="header">
@@ -130,7 +130,7 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       
 
       <section className="logo-section">

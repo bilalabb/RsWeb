@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_bold_monitor" data-name="vuesax/bold/monitor" transform="translate(-424 -190)">
+    <g id="monitor">
+      <path id="Vector" d="M15.56,0H4.41A4.417,4.417,0,0,0,0,4.41v6.7a4.411,4.411,0,0,0,4.41,4.41H8.25a1,1,0,0,1,1,1v.97a1,1,0,0,1-1,1H5.83a.755.755,0,0,0,0,1.51h8.35a.75.75,0,1,0,0-1.5H11.76a1,1,0,0,1-1-1v-.97a1,1,0,0,1,1-1h3.81a4.411,4.411,0,0,0,4.41-4.41V4.42A4.434,4.434,0,0,0,15.56,0Z" transform="translate(426 192)" fill="#fff"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(448 214) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

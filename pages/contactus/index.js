@@ -26,10 +26,10 @@ export default function ContactUs() {
           <div className="header-contact">
             <h1>Contact Us</h1>
             <div className="bottom-border" />
-            <p>
-              When yuo is simply Dummy text of the printing and typesetting
+            {/* <p>
+              When you is simply Dummy text of the printing and typesetting
               industry.
-            </p>
+            </p> */}
           </div>
           {/* <div className="overly" /> */}
         </div>
@@ -40,14 +40,14 @@ export default function ContactUs() {
           <div className="row">
             <div className="header">
               <h2>
-                How can we help your Business?{" "}
+                For Business Query 
+                {" "}
                 <div className="header-bottom-border" />
               </h2>
             </div>
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p>
-                We are a team of astronauts (not literally) who are building
-                blockchain-powered solutions to shoot for the moon!{" "}
+               Fill this form to get a quote.{" "}
               </p>
             </div>
             <div className="input-user">
@@ -158,7 +158,7 @@ export default function ContactUs() {
                 <img src="/image/6.jpg" alt="6.jpg" />
               </div>
               <div className="slick-slide">
-                <img src="/image/8.jpg" alt="8.jpg" />
+                <img src="/image/8.jpg" alt="8.jpg" />  
               </div>
               <div className="slick-slide">
                 <img src="/image/ak.png" alt="ak.png" />
