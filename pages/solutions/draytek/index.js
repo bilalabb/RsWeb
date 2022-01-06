@@ -1,11 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faChevronRight,
-    faChevronLeft,
-} from "@fortawesome/free-solid-svg-icons";
-
 import React from 'react'
 export default function index() {
     return (
@@ -40,7 +34,7 @@ export default function index() {
                         <div className="col-12 col-md-6">
                             <ul className="drayTek-image">
                                 <li>
-                                    <img src="/image/icons/staty-conected.png" className="" />
+                                    <img src="/image/logo/staty-conected.png" className="" />
                                     <div>
                                         <h4>
                                             Stay Connected
@@ -50,7 +44,7 @@ export default function index() {
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="/image/icons/business-growth.png" className="" />
+                                    <img src="/image/logo/business-growth.png" className="" />
 
                                     <div>
                                         <h4>
@@ -61,7 +55,7 @@ export default function index() {
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="/image/icons/byod.png" className="" />
+                                    <img src="/image/logo/byod.png" className="" />
                                     <div>
                                         <h4>
                                             Bring Your Own Device (BYOD)
@@ -76,7 +70,7 @@ export default function index() {
                         <div className="col-12 col-md-6">
                             <ul className="drayTek-image">
                                 <li>
-                                    <img src="/image/icons/squirty-network.png" className="" />
+                                    <img src="/image/logo/squirty-network.png" className="" />
                                     <div>
                                         <h4>
                                             Secured Network
@@ -86,7 +80,7 @@ export default function index() {
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="/image/icons/disaster-recovery.png" className="" />
+                                    <img src="/image/logo/disaster-recovery.png" className="" />
 
                                     <div>
                                         <h4>
@@ -97,7 +91,7 @@ export default function index() {
                                     </div>
                                 </li>
                                 <li>
-                                    <img src="/image/icons/inter-office.png" className="" />
+                                    <img src="/image/logo/inter-office.png" className="" />
                                     <div>
                                         <h4>
                                             Inter-office / Remote Access
@@ -119,27 +113,27 @@ export default function index() {
                             <div className="">
                                 <ul className="logo-images">
                                     <li>
-                                        <span><img src="/image/icons/vpn-data-protect.png" className="img-fluid" /></span>
+                                        <span><img src="/image/logo/vpn-data-protect.png" className="img-fluid" /></span>
                                         <p>VPN</p>
                                     </li>
                                     <li>
-                                        <span><img src="/image/icons/vdsl2.png" className="img-fluid" /></span>
+                                        <span><img src="/image/logo/vdsl2.png" className="img-fluid" /></span>
                                         <p>VDSL2</p>
                                     </li>
                                     <li>
-                                        <span><img src="/image/icons/fire-wall.png" className="img-fluid" /></span>
+                                        <span><img src="/image/logo/fire-wall.png" className="img-fluid" /></span>
                                         <p>Firewall & Content Filter</p>
                                     </li>
                                     <li>
-                                        <span><img src="/image/icons/web-potal.png" className="img-fluid" /></span>
+                                        <span><img src="/image/logo/web-potal.png" className="img-fluid" /></span>
                                         <p>web-potal.png</p>
                                     </li>
                                     <li>
-                                        <span><img src="/image/icons/free-cloud.png" className="img-fluid" /></span>
+                                        <span><img src="/image/logo/free-cloud.png" className="img-fluid" /></span>
                                         <p>FREE DDNS service</p>
                                     </li>
                                     <li>
-                                        <span><img src="/image/icons/bandwidth.png" className="img-fluid" /></span>
+                                        <span><img src="/image/logo/bandwidth.png" className="img-fluid" /></span>
                                         <p>Bandwidth Management</p>
                                     </li>
                                 </ul>

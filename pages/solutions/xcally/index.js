@@ -1,11 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faChevronRight,
-    faChevronLeft,
-} from "@fortawesome/free-solid-svg-icons";
-
 import React from 'react'
 export default function index() {
     return (
@@ -59,7 +53,7 @@ export default function index() {
                                         </div>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-shuffle.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-shuffle.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                     </li>
@@ -74,7 +68,7 @@ export default function index() {
                                         </div>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-profile-2user.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-profile-2user.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                     </li>
@@ -89,7 +83,7 @@ export default function index() {
                                         </div>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-setting-2.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-setting-2.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                     </li>
@@ -104,7 +98,7 @@ export default function index() {
                                         </div>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-monitor.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-monitor.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                     </li>
@@ -119,7 +113,7 @@ export default function index() {
                                         </div>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-personalcard.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-personalcard.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                     </li>
@@ -134,7 +128,7 @@ export default function index() {
                                         </div>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-activity.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-activity.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                     </li>
@@ -149,7 +143,7 @@ export default function index() {
                                         </div>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-money.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-money.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                     </li>
@@ -162,7 +156,7 @@ export default function index() {
                                     <li>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-arrow-2.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-arrow-2.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                         <div>
@@ -177,7 +171,7 @@ export default function index() {
                                     <li>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-data.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-data.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                         <div>
@@ -192,7 +186,7 @@ export default function index() {
                                     <li>
                                         <div>
                                             <span>
-                                                <img src="/image/icons/vuesax-bold-call.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-call.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                         <div>
@@ -207,7 +201,7 @@ export default function index() {
                                     <li>
                                         <div>
                                         <span>
-                                                <img src="/image/icons/vuesax-bold-global.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-global.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                         <div>
@@ -221,7 +215,7 @@ export default function index() {
                                     <li>
                                         <div>
                                         <span>
-                                             <img src="/image/icons/vuesax-bold-messages.svg" className="img-fluid" />
+                                             <img src="/image/logo/vuesax-bold-messages.svg" className="img-fluid" />
                                             </span>                                            
                                         </div>
                                         <div>
@@ -235,7 +229,7 @@ export default function index() {
                                     <li>
                                         <div>
                                         <span>
-                                                <img src="/image/icons/vuesax-bold-folder-open.svg" className="img-fluid" />
+                                                <img src="/image/logo/vuesax-bold-folder-open.svg" className="img-fluid" />
                                             </span>
                                         </div>
                                         <div>
@@ -250,7 +244,7 @@ export default function index() {
                                     <li>
                                         <div>
                                             <span>
-                                            <img src="/image/icons/vuesax-bold-cloud.svg" class="img-fluid" />
+                                            <img src="/image/logo/vuesax-bold-cloud.svg" class="img-fluid" />
                                             </span>
                                         </div>
                                         <div>
