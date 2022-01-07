@@ -750,6 +750,11 @@ margin-bottom: 15px;
 background-color: #f5f5f5;
 padding: 80px 0;
 }
+.Yealink-iphone-section-2 .row{
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
 .iphone-image:hover{
   box-shadow: 0 0 15px #adabab;
   border-radius: 0;
