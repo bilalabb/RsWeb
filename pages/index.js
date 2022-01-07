@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
+import { fadeIn } from 'react-animations'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronRight,
@@ -451,11 +452,6 @@ export default function Home() {
                   <a href="#">Draytek VPN Router</a>
                 </p>
               </div>
-            </div>
-            <div className="View-more-btn">
-              <button className="btn btn-primary btn-lg see-more" type="submit">
-                View more
-              </button>
             </div>
           </div>
         </div>

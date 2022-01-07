@@ -87,14 +87,14 @@ export default function Solutions() {
       <section className="solutions-section-1">
         <div className="container">
           <div className="row">
-              <div className="div-1 col-lg-6 yealink-header-div col-12">
+              <div className="div-1 col-lg-6 col-md-6 yealink-header-div col-12">
                 <div className="Yealink-header">
                   <h1>
                     Yealink-Video Conferecing{" "}
                   </h1>
                 </div>
               </div>
-              <div className="div-2 col-lg-6 col-12">
+              <div className="div-2 col-lg-6 col-12 col-md-6">
                 <img src="/image/MicrosoftTeams-image-3.png" className="img-fluid"/>
               </div>
             </div>
@@ -154,8 +154,7 @@ export default function Solutions() {
       <section className="high-qualty-section">
         <div className="container">
           <div className="row">
-            <div className="high-qualty-main-div">
-              <div className="high-qualty-img">
+              <div className="col-12 col-md-6 high-qualty-img">
                 <div className="high-qualty-image">
                   <img src="/image/MicrosoftTeams-image-3.png" />
                 </div>
@@ -196,7 +195,7 @@ export default function Solutions() {
                   </div>
                 </Slider>
               </div>
-              <div className="high-qualty-text">
+              <div className="col-12 col-md-6 high-qualty-text">
                 <div className="Quality-heading">
                   <h2>High Quality</h2>
                   <p>
@@ -228,10 +227,7 @@ export default function Solutions() {
               </div>
             </div>
           </div>
-        </div>
       </section>
-
-
       <section className="Yealink-iphone-section">
         <div className="container">
           <div className="row">
@@ -257,39 +253,36 @@ export default function Solutions() {
             </div>
           </div>
         </div>
-      </section>
-
-
-
+      </section>    
       <section className="Yealink-iphone-section-2">
         <div className="container">
-          <div className="row">
-            <div className="header">
+        <div className="row">
+            <div className="col-12 header">
               <h2>Yealink IP Phones</h2>
             </div>
-            <div className="iphone-main-div col-lg-12">
-              <div className="iphone-image col-lg-3"><img src="/image/Yelaink-T46S.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-VP49G.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-T58AEXP50.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-T58A-Right.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-T58A-Front.jpg" /></div>
             </div>
-            <div className="iphone-main-div col-lg-12">
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-T57w.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-T54w.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/T58A-ms-teams2.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-T42S.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-T48S.jpg" /></div>
+          <div className="row">
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yelaink-T46S.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-VP49G.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T58AEXP50.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T58A-Right.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T58A-Front.jpg" className="img-fluid"/></div>
+          </div>
+            <div className="row">
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T57w.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T54w.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/T58A-ms-teams2.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T42S.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T48S.jpg" className="img-fluid" /></div>
             </div>
-            <div className="iphone-main-div col-lg-12">
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-VC800.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-VC500.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-w56P-Dect.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-VC200.jpg" /></div>
-              <div className="iphone-image col-lg-3"><img src="/image/Yealink-W80-Dect.jpg" /></div>
+            <div className="row">
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-VC800.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-VC500.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-w56P-Dect.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-VC200.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-W80-Dect.jpg" className="img-fluid" /></div>
             </div>
           </div>
-        </div>
       </section>
       <section className="logo-section">
         <div className="container">

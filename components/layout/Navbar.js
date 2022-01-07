@@ -61,28 +61,31 @@ export default function Navbar() {
                   <li class="nav-item dropdown dropdown-menu-costam">
                     <Link href="">
                       <a class="nav-link " href="">
-                        Solutions
+                       <span> Solutions</span>
+                       <span>
+                         <img src="/image/arrow+right.png" className="img-fluid sub-arrow"/>
+                       </span>
                       </a>
                     </Link>
                     <ul class="dropdown-menu">
                     <li>
                       <Link href="/solutions/yealinkconference">
-                        <a class="dropdown-item" href="">Yealink-Video Conferecing</a>
+                        <a class="dropdown-item" href="">Yealink-Video<br />Conferecing</a>
                         </Link>
                         </li>
                       <li>
                       <Link href="/solutions/yeastarseries">
-                        <a class="dropdown-item" href=""> Yeastar-PBX System</a>
+                        <a class="dropdown-item" href=""> Yeastar-PBX <br />System</a>
                         </Link>
                         </li>
                       <li>
                       <Link href="/solutions/milesight">
-                        <a class="dropdown-item" href="#">Milesight-Surveillance System</a>
+                        <a class="dropdown-item" href="#">Milesight-Surveillance <br />System</a>
                         </Link>
                         </li>
                         <li>
                       <Link href="/solutions/xcally">
-                        <a class="dropdown-item" href="#">XCALLY-Call Center Solution</a>
+                        <a class="dropdown-item" href="#">XCALLY-Call Center<br /> Solution</a>
                         </Link>
                         </li>
                         <li>
