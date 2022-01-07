@@ -27,11 +27,13 @@ export default function Footer() {
                 <div className="card-list">
                   <ul>
                     <li className="card-list-link">
-                      {" "}
-                      <a href="#">Home</a></li>
+                      {""}
+                      <a href="#">Home</a>
+                      </li>
                     <li className="card-list-link">
                       {" "}
-                      <a href="#">About Us</a></li>
+                      <a href="#">About Us</a>
+                      </li>
                     <li className="card-list-link">
                       {" "}
                       <a href="#">Solutions</a></li>
