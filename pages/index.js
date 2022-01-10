@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
+import Slide from 'react-reveal/Slide';
 import { fadeIn } from 'react-animations'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -226,10 +227,12 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="header">
+            <Slide top>
               <h2>
                 Our Three Core Steps{" "}
                 <div className="header-bottom-border" />
               </h2>
+              </Slide>
             </div>
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p>

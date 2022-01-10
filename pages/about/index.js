@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Slide from 'react-reveal/Slide';
 import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -50,6 +51,7 @@ export default function About() {
     <>
      
      <section className="About-page-section">
+       <Slide top>
         <div className="header-about">
           <h1>About Us</h1>
           <div className="bottom-border" />
@@ -57,6 +59,7 @@ export default function About() {
           RSTECH is the technology arm of Reactive Space.
           </p>
         </div>
+        </Slide>
         <div className="overly" />
       </section>
      
@@ -65,9 +68,11 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="paragraph2">
+              <Slide top>
               <p>
 Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.</p>
               <p>RS Technology is a Pakistan-based specialized value-added reseller. We aim to provide the best technology in Pakistan. We are ideally positioned to serve Pakistan’s technology market as a VAR of products and solutions. Our respected partners are Yealink, DrayTek, Yeastar, Milesight, 2N, Akuvox, XCALLY, Engenius.</p>
+              </Slide>
             </div>
           </div>
         </div>
@@ -76,6 +81,7 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
       <section className="shake-hand-section">
         <div className="shake-hand-maindiv col-md-12">
           <div className="col-md-6 col-12 paragraph-one">
+          <Slide top>
             <h1>Mission & Vision:</h1>
           <h3>Our Mission</h3>
 
@@ -83,6 +89,7 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
           <h3>Our Vision</h3>
 
             <p>At RS Technology, We aim to build credibility by keeping our promises, acting with honesty and integrity, and achieving corporate goals only via ethical behavior. RS Technology is devoted to establishing an atmosphere of dignity and respect.</p>
+            </Slide>
           </div>
           <div className="col-md-6 col-12 ">
             <img src="/image/shake-hand.jfif" />
@@ -94,8 +101,10 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
         <div className="container">
           <div className="row">
             <div className="paragraph2">
+              <Slide top>
               <h2> Customer Services.<div className="header-bottom-border" /></h2>
               <p>We cultivate and maintain excellent working relationships with our clients in order to fully comprehend their business requirements and build a solid basis for product matching through our technology. Our client service is our greatest asset. We are in a unique position to provide a wide range of services to assist our customers with corporate solutions.</p>
+              </Slide>
             </div>
           </div>
         </div>
@@ -107,10 +116,12 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
             <img src="/image/36S0N.jpeg" />
           </div>
           <div className="col-md-6  col-12 paragraph-two">
+          <Slide right>
             <h3>
             OUR Staff
             </h3>
-            <p>To maintain a portfolio of excellent professionals, we continue to recruit suitable technology experts. Our staff is made up of the best individuals accessible in our industry. Our screening methods are designed to discover each candidate's unique qualifications and match them to the demands of our clients. We provide flexibility and choice, as well as remove the element of risk from the recruiting process.</p>            
+            <p>To maintain a portfolio of excellent professionals, we continue to recruit suitable technology experts. Our staff is made up of the best individuals accessible in our industry. Our screening methods are designed to discover each candidate's unique qualifications and match them to the demands of our clients. We provide flexibility and choice, as well as remove the element of risk from the recruiting process.</p>  
+            </Slide>          
           </div>
         </div>
       </section>
