@@ -19,6 +19,12 @@ padding: 0;
 .navbar-brand .logo {
 width: 160px;
 }
+.nav-section{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #fff;
+}
 .navbar-collapse {
 justify-content: end;
 }
@@ -1184,8 +1190,8 @@ margin: 6px;
 0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(http://lorempixel.com/800/600/nature/2); */
 background: linear-gradient(
     0deg,
-    rgba(50, 94, 169, 0.9),
-    rgba(55, 161, 218, 0.9)
+    rgba(50, 94, 169, 0.7),
+    rgba(55, 161, 218, 0.8)
   ),
   url(/image/Layer.png);
 width: 100%;
