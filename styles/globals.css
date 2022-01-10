@@ -750,10 +750,10 @@ margin-bottom: 15px;
 background-color: #f5f5f5;
 padding: 80px 0;
 }
-.Yealink-iphone-section-2 .row{
+/* .Yealink-iphone-section-2 .row{
   justify-content: space-around !important;
   margin-bottom: 20px;
-}
+} */
 
 .iphone-image:hover{
   box-shadow: 0 0 15px #adabab;
@@ -1173,6 +1173,7 @@ font-size: 30px;
 }
 .Yealink-iphone-section-2 .iphone-image {
 width: 19% !important;
+margin: 6px;
 }
 .contact-section {
 /* background: linear-gradient(
@@ -1535,7 +1536,7 @@ align-items: center !important;
   }
   .Yealink-iphone-section-2 .iphone-image {
     width: 30% !important;
-    margin: 12px;
+    margin-bottom: 12px;
 }
 .robust-feature-heading h3{
   font-size: 30px !important;
@@ -1613,6 +1614,10 @@ background-color: rgb(69, 115, 241);
 }
 }
 @media (max-width: 767px) {
+  .container{
+    margin: 0 10px;
+    overflow: hidden;
+  }
 .navbar-brand .logo {
   width: 100px;
 }
@@ -1790,21 +1795,10 @@ background-color: rgb(69, 115, 241);
 }
 .logo-section .slick-slide img {
   background-color: transparent;
-  width: 100px;
+  width: 100px !important;
   margin: auto;
 }
-.logo-section .slick-next {
-  right: 6px;
-  z-index: 9999;
-  top: 0;
-  background: #fff;
-}
-.logo-section .slick-prev {
-  left: 6px;
-  z-index: 9999;
-  top: 0;
-  background: #fff;
-}
+
 .carousel-slider2 {
   width: 90%;
   padding: 40px 0 0;
@@ -1860,6 +1854,7 @@ background-color: rgb(69, 115, 241);
 .Yealink-header h1 {
   font-size: 26px;
   line-height: 30px;
+  text-align: center;
 }
 .solutions-section-1 {
   padding: 40px 0;
@@ -1922,7 +1917,7 @@ background-color: rgb(69, 115, 241);
   font-size: 26px;
 }
 .Yealink-iphone-section-2 .iphone-image {
-  width: 100% !important;
+  width: 90% !important;
 }
 .iphone-main-div {
   flex-wrap: wrap;
@@ -2058,6 +2053,27 @@ list-style: none;
     padding-left: 20px;
     border: none;
   }
+  .Yealink-iphone-section-2 .row{
+    margin-bottom: 0;
+  }
+  .iphone-image{
+    height: auto;
+  }
+  .logo-section .slick-prev, .logo-section .slick-next{
+    width: 10px ;
+    height: 20px;
+    top: 20px;
+  }
+  .logo-section .slick-next {
+    right: 20px;
+    z-index: 9999;
+    background: #fff;
+  }
+  .logo-section .slick-prev {
+    left: 6px;
+    z-index: 9999;
+    background: #fff;
+  }
 }
 @media (max-width: 320px){
 .contact-section {
@@ -2085,9 +2101,6 @@ list-style: none;
 }
 .name-input, .Email-phone{
   flex-wrap: wrap;
-}
-.slick-initialized .slick-slide .slick-slide-image{
-  width: 112px;
 }
 .logo-section .slick-next, .logo-section .slick-prev{
   display: none !important;

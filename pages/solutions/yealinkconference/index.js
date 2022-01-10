@@ -262,25 +262,25 @@ export default function Solutions() {
             </div>
             </div>
           <div className="row">
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yelaink-T46S.jpg" className="img-fluid"/></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-VP49G.jpg" className="img-fluid"/></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T58AEXP50.jpg" className="img-fluid"/></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T58A-Right.jpg" className="img-fluid"/></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T58A-Front.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yelaink-T46S.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-VP49G.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-T58AEXP50.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-T58A-Right.jpg" className="img-fluid"/></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-T58A-Front.jpg" className="img-fluid"/></div>
           </div>
             <div className="row">
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T57w.jpg" className="img-fluid" /></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T54w.jpg" className="img-fluid" /></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/T58A-ms-teams2.jpg" className="img-fluid" /></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T42S.jpg" className="img-fluid" /></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-T48S.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-T57w.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-T54w.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/T58A-ms-teams2.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-T42S.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-T48S.jpg" className="img-fluid" /></div>
             </div>
             <div className="row">
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-VC800.jpg" className="img-fluid" /></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-VC500.jpg" className="img-fluid" /></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-w56P-Dect.jpg" className="img-fluid" /></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-VC200.jpg" className="img-fluid" /></div>
-              <div className="iphone-image col-lg-3 col-md-4"><img src="/image/Yealink-W80-Dect.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-VC800.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-VC500.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-w56P-Dect.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-VC200.jpg" className="img-fluid" /></div>
+              <div className="iphone-image col-lg-3 col-md-2.4"><img src="/image/Yealink-W80-Dect.jpg" className="img-fluid" /></div>
             </div>
           </div>
       </section>
