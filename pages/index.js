@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
-import { Flip, Zoom, Slide } from "react-reveal";
+import Zoom from 'react-reveal/Zoom';
+import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
 import { fadeIn } from 'react-animations'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
