@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
-import Slide from 'react-reveal/Slide';
-import Zoom from 'react-reveal/Zoom';
+import { Flip, Zoom, Slide } from "react-reveal";
 import { fadeIn } from 'react-animations'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -15,7 +14,7 @@ export default function Home() {
   var settings = {
     dots: true,
     infinite: true,
-    autoplay:true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -35,7 +34,7 @@ export default function Home() {
   var settings2 = {
     dots: false,
     infinite: true,
-    autoplay:true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -43,28 +42,28 @@ export default function Home() {
     prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
     responsive: [
       {
-          breakpoint: 1024,
-          settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-          }
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
       },
       {
-          breakpoint: 600,
-          settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-          }
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
       },
       {
-          breakpoint: 480,
-          settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-          }
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
       }
 
-]
+    ]
   };
   return (
     <>
@@ -72,150 +71,196 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <Slider {...settings}>
-            <div className="carousel-item active">
+              <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                  <img src="/image/logo/794-engenius_logo-removebg-preview.png"
-                    className="img-fluid"
-                    alt="..."
-                  />
-                  <p>
-                    EnGenius access points and cloud solutions are user-friendly amenities in modern life
-                  </p>
+                  <Slide top>
+                    <img src="/image/logo/794-engenius_logo-removebg-preview.png"
+                      className="img-fluid"
+                      alt="..."
+                    />
+                  </Slide>
+                  <Slide left>
+                    <p>
+                      EnGenius access points and cloud solutions are user-friendly amenities in modern life
+                    </p>
+                  </Slide>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                  <img
-                    src="/image/slider-top-img/outdoor-series.png"
-                    className="d-block"
-                    alt="..."
-                  />
+                  <Zoom>
+                    <img
+                      src="/image/slider-top-img/outdoor-series.png"
+                      className="d-block"
+                      alt="..."
+                    />
+                  </Zoom>
                 </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                  <img src="/image/logo/yealink-1-removebg-preview.png"
-                    className="img-fluid"
-                    alt="..."
-                  />
-                  <p>
-                    Yealink's communication devices are some of the world's top leading products in the market
-                  </p>
+                  <Slide top>
+                    <img src="/image/logo/yealink-1-removebg-preview.png"
+                      className="img-fluid"
+                      alt="..."
+                    />
+                  </Slide>
+                  <Slide left>
+                    <p>
+                      Yealink's communication devices are some of the world's top leading products in the market
+                    </p>
+                  </Slide>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                  <img
-                    src="/image/slider-top-img/1-removebg-preview.png"
-                    className="d-block"
-                    alt="..."
-                  />
+                  <Zoom>
+                    <img
+                      src="/image/slider-top-img/1-removebg-preview.png"
+                      className="d-block"
+                      alt="..."
+                    />
+                  </Zoom>
                 </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                  <img src="/image/logo/yeastar-removebg-preview.png"
-                    className="img-fluid"
-                    alt="..."
-                  />
-                  <p>
-                    Yeastar's Topnotch PBX system and Gateways in the modern-day market
-                  </p>
+                  <Slide top>
+                    <img src="/image/logo/yeastar-removebg-preview.png"
+                      className="img-fluid"
+                      alt="..."
+                    />
+                  </Slide>
+                  <Slide left>
+                    <p>
+                      Yeastar's Topnotch PBX system and Gateways in the modern-day market
+                    </p>
+                  </Slide>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                  <img
-                    src="/image/slider-top-img/111.png"
-                    className="d-block"
-                    alt="..."
-                  />
+                  <Zoom>
+                    <img
+                      src="/image/slider-top-img/111.png"
+                      className="d-block"
+                      alt="..."
+                    />
+                  </Zoom>
                 </div>
               </div>
 
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                  <img src="/image/logo/milight-removebg-preview.png"
+                  <Zoom><img src="/image/logo/milight-removebg-preview.png"
                     className="img-fluid"
                     alt="..."
                   />
-                  <p>
+                  </Zoom>
+                  <Slide left><p>
                     Milesight's Unmatchable Surveillance systems in the market with their unbeatable features
                   </p>
+                  </Slide>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                  <img
-                    src="/image/slider-top-img/MicrosoftTeams-image__4_-removebg-preview.png"
-                    className="d-block"
-                    alt="..."
-                  />
+                  <Zoom>
+                    <img
+                      src="/image/slider-top-img/MicrosoftTeams-image__4_-removebg-preview.png"
+                      className="d-block"
+                      alt="..."
+                    />
+                  </Zoom>
                 </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                  <img src="/image/logo/Akuvox-removebg-preview.png"
-                    className="img-fluid"
-                    alt="..."
-                  />
-                  <p>
-                    Smart intercoms from Akuvox is essential to a luxurious lifestyle
-                  </p>
+                  <Slide top>
+                    <img src="/image/logo/Akuvox-removebg-preview.png"
+                      className="img-fluid"
+                      alt="..."
+                    />
+                  </Slide>
+                  <Slide left>
+                    <p>
+                      Smart intercoms from Akuvox is essential to a luxurious lifestyle
+                    </p>
+                  </Slide>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                  <img
-                    src="/image/slider-top-img/MicrosoftTeams-image__5_-removebg-preview.png"
-                    className="d-block"
-                    alt="..."
-                  />
+                  <Zoom>
+                    <img
+                      src="/image/slider-top-img/MicrosoftTeams-image__5_-removebg-preview.png"
+                      className="d-block"
+                      alt="..."
+                    />
+                  </Zoom>
                 </div>
               </div>
-             
+
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                  <img src="/image/logo/2n-telekomunikace-a-s-logo-vector-removebg-preview.png"
-                    className="img-fluid logo-2n"
-                    alt="..."
-                  />
-                  <p>
+                  <Slide left>
+                    <img src="/image/logo/2n-telekomunikace-a-s-logo-vector-removebg-preview.png"
+                      className="img-fluid logo-2n"
+                      alt="..."
+                    />
+                  </Slide>
+                 <Slide bottom>
+                 <p>
                     2N's intercoms are equipped with the top-notch technology available and an addition to your premium living
                   </p>
+                 </Slide>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                  <img
+                 <Zoom>
+                 <img
                     src="/image/slider-top-img/MicrosoftTe-ms-image.png"
                     className="d-block"
                     alt="..."
                   />
+                 </Zoom>
                 </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                  <img src="/image/logo/DrayTek_logo-removebg-preview.png"
+<Slide top>
+<img src="/image/logo/DrayTek_logo-removebg-preview.png"
                     className="img-fluid"
                     alt="..."
                   />
-                  <p>
+</Slide>
+                 <Slide left>
+                 <p>
                     DrayTekFrom ISDN, VDSL to LTE, DrayTek has always been striving to provide SMBs and professional with reliable, fast and secure connections.
                   </p>
+                 </Slide>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
+                  <Slide right>
                   <img
                     src="/image/slider-top-img/MicrosoftTeams-image drytek.png"
                     className="d-block"
                     alt="..."
                   />
+                  </Slide>
                 </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                  <img src="/image/logo/xcally-removebg-preview.png"
+                 <Slide top>
+                 <img src="/image/logo/xcally-removebg-preview.png"
                     className="img-fluid"
                     alt="..."
                   />
-                  <p>
-                  XCALLY provides highly dependable and scalable call center solutions
+                 </Slide>
+                <Slide left>
+                <p>
+                    XCALLY provides highly dependable and scalable call center solutions
                   </p>
+                </Slide>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
+                  <Zoom>
                   <img
                     src="/image/slider-top-img/xca.png"
                     className="d-block"
                     alt="..."
                   />
+                  </Zoom>
                 </div>
               </div>
 
@@ -228,11 +273,11 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="header">
-            <Slide top>
-              <h2>
-                Our Three Core Steps{" "}
-                <div className="header-bottom-border" />
-              </h2>
+              <Slide top>
+                <h2>
+                  Our Three Core Steps{" "}
+                  <div className="header-bottom-border" />
+                </h2>
               </Slide>
             </div>
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -340,7 +385,7 @@ export default function Home() {
 
             <div className="second-card col-md-3 col-12">
               <span className="second-card-img">
-                
+
                 <img src="/image/yealink.jpg"
                   className="card-img-top"
                   alt="" />
@@ -441,7 +486,7 @@ export default function Home() {
                   <a href="#">EnGenius-Wireless Solution</a>
                 </p>
               </div>
-              
+
             </div>
             <div className="second-card col-md-3 col-sm-12 col-xs-12">
               <span className="second-card-img">
@@ -598,25 +643,25 @@ export default function Home() {
                 <img src="/image/1.jpg" alt="1.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image"/>
+                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image"/>
+                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image"/>
+                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image"/>
+                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image"/>
+                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image"/>
+                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image"/>
+                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image" />
               </div>
             </Slider>
           </div>
