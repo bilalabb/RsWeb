@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Flip from 'react-reveal/Flip';
+import Slide from 'react-reveal/Slide';
 import React from 'react'
 export default function index() {
     return (
@@ -12,10 +14,12 @@ export default function index() {
                         </div>
                         <div className="col-12 col-md-7 draytek-products">
                             <div>
+                            <Flip top>
                                 <h2>DrayTek Solutions</h2>
                                 <p>
                                     DrayTek, a leading developer of cutting-edge firmware and high-quality equipment, is a reliable provider of cutting-edge networking and telecommunications for SOHO and SMB. DrayTek's solutions, which range from enterprise-level firewalls to mission-critical bandwidth management, complete VPN services, and triple play routers, can currently satisfy market demand and exceed customer expectations.
                                     DrayTek also provides centralised management software for Vigor Routers and VigorAPs. This is an integrated solution that allows you to configure, monitor, and maintain numerous Vigor devices from a single location.</p>
+                                    </Flip>
                             </div>
                         </div>
                     </div>
@@ -33,6 +37,7 @@ export default function index() {
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
+                            <Slide left>
                             <ul className="drayTek-image">
                                 <li>
                                     <img src="/image/logo/staty-conected.png" className="" />
@@ -69,8 +74,10 @@ export default function index() {
                                     </div>
                                 </li>
                             </ul>
+                            </Slide>
                         </div>
                         <div className="col-12 col-md-6">
+                        <Slide right>
                             <ul className="drayTek-image">
                                 <li>
                                     <img src="/image/logo/squirty-network.png" className="" />
@@ -107,6 +114,7 @@ export default function index() {
                                     </div>
                                 </li>
                             </ul>
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -116,6 +124,7 @@ export default function index() {
                     <div className="row">
                         <div className="col-12">
                             <div className="">
+                            <Slide bottom>
                                 <ul className="logo-images">
                                     <li className="col-6">
                                         <span><img src="/image/logo/vpn-data-protect.png" className="img-fluid" /></span>
@@ -142,6 +151,7 @@ export default function index() {
                                         <p>Bandwidth Management</p>
                                     </li>
                                 </ul>
+                                </Slide>
                             </div>
                         </div>
                     </div>
