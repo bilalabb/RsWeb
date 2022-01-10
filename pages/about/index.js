@@ -8,7 +8,6 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
-
 export default function About() {
 
 
@@ -116,12 +115,13 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
             <img src="/image/36S0N.jpeg" />
           </div>
           <div className="col-md-6  col-12 paragraph-two">
-          <Slide right>
+            <div className=" col-md-7">
+            <Slide right>
             <h3>
             OUR Staff
             </h3>
             <p>To maintain a portfolio of excellent professionals, we continue to recruit suitable technology experts. Our staff is made up of the best individuals accessible in our industry. Our screening methods are designed to discover each candidate's unique qualifications and match them to the demands of our clients. We provide flexibility and choice, as well as remove the element of risk from the recruiting process.</p>  
-            </Slide>          
+            </Slide></div>          
           </div>
         </div>
       </section>

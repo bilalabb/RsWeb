@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
+import Flip from 'react-reveal/Flip';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faChevronRight,
@@ -7,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import React from 'react'
+import { Slide } from "react-reveal";
 export default function index() {
     return (
         <>
@@ -15,10 +19,12 @@ export default function index() {
                     <div className="row">
                         <div className="col-12">
                             <div className="">
+                            <Bounce>
                             <h1 className="yeastar-series-headings">
 
                                     YEASTAR P-SERIES PBX SYSTEM
                                 </h1>
+                                </Bounce>
                                 <p>
                                 The way companies communicate and engage is continuously changing as a result of technological advancements. The more SMEs are recognizing that their strategic planning process requires more than a PBX. They are looking for a system that breaks through distance constraints and welcomes flexibility and customization in order to stay competitive.
                                 </p>
@@ -34,9 +40,12 @@ export default function index() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-4">
+                        <Slide left>
                             <img src="/image/logo/yeastar-pbx-3.png" className="img-fluid" />
+                            </Slide>
                         </div>
                         <div className="col-12 col-md-8">
+                            <Slide right>
                             <div className="">
                                 <h2>
                                     PBX PLUS MORE VALUES AND POSSIBILITIES
@@ -45,6 +54,7 @@ export default function index() {
                                 PBX Plus More" product from Yeastar, highlights the issue by allowing organizations to have continuous conversations at all times in a fully functional system. It offers SMEs more than just a PBX; it also includes call visualization, comprehensive call center tools, unified communications applications, anywhere, anytime access, and everything practical while outperforming across mobiles, desktops, and browsers. P-Series demands a lower total cost of ownership, less training, and fewer management tasks, whether making a Phone System transition or starting from scratch, to balance expenses and future growth.
                                 </p>
                             </div>
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -53,6 +63,7 @@ export default function index() {
                 <div className="container">
                     <div className="row">
                         <div className="">
+                            <Slide left>
                             <div className="">
                                 <table className="table tableizer-table">
                                     <thead>
@@ -187,6 +198,7 @@ export default function index() {
 
                                 </table>
                             </div>
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -195,9 +207,12 @@ export default function index() {
                 <div className="container-fluid av-content-full">
                     <div className="row">
                         <div className="col-12 text-center Features-section-heading">
+                            <Bounce>
                         <h1 className="">Features</h1>
+                        </Bounce>
                         </div>
                         <div className="col-12 col-md-3">
+                            <Slide left>
                             <div>
                                 <h4>Business Features</h4>
                                 <ul>
@@ -225,8 +240,10 @@ export default function index() {
                                     <li>Voicemail to email</li>
                                 </ul>
                             </div>
+                            </Slide>
                         </div>
                         <div className="col-12 col-md-3">
+                        <Slide left>
                             <div class="">
                                 <h4>Telephony Features</h4>
                                 <ul>
@@ -252,8 +269,10 @@ export default function index() {
                                 </ul>
 
                             </div>
+                            </Slide>
                         </div>
                         <div className="col-12 col-md-3">
+                        <Slide right>
                             <div class="">
                                 <h4>Administration &amp; Security</h4>
                                 <ul>
@@ -279,8 +298,10 @@ export default function index() {
                                     <li>Security Alerts via Email</li>
                                 </ul>
                             </div>
+                            </Slide>
                         </div>
                         <div className="col-12 col-md-3">
+                            <Slide right>
                             <div class="">
                                 <h4>Unified Communications</h4>
                                 <ul>
@@ -303,6 +324,7 @@ export default function index() {
                                     </li>
                                 </ul>
                             </div>
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -310,11 +332,14 @@ export default function index() {
             <section className="Integrated-section">
                 <div className="container">
                     <div className="row">
+                        <Slide top>
                         <div className="col-12 text-center">
                         <h1 className="yeastar-series-headings">Integrated Video Conferencing</h1>
                             <h4>Interact and Collaborate in Real time</h4>
                             <p className="pbx-heading">Face-to-face interactions are required not just by huge corporations, but also by SMEs to bring teams and customers closer together, regardless of their geographical location. The P-Series PBX System now includes an integrated web-based video conferencing solution with screen sharing and team chat for SMEs to conduct multi-party virtual meetings in a better way to get things done faster, improve team collaboration, and strengthen business partnerships.</p>
                         </div>
+                        </Slide>
+                        <Slide left>
                         <div className="col-12 col-md-5 Integrated-discription">
                             <div class="">
                                 <ul>
@@ -329,12 +354,15 @@ export default function index() {
                         <div className="col-12 col-md-7">
                             <img src="/image/logo/video-interact-img1.png" className="img-fluid" />
                         </div>
+                        </Slide>
                     </div>
                 </div>
             </section>
             <section className="">
                 <div className="container">
                     <div className="row">
+
+                        <Slide right>
                         <div className="col-12 col-md-5 Integrated-discription">
                             <div class="">
                             <h1 className="yeastar-series-headings">Operator Panel for more efficient call management</h1>
@@ -345,6 +373,7 @@ export default function index() {
                         <div className="col-12 col-md-7">
                             <img src="/image/logo/ezgif-com-gif-maker.gif" className="img-fluid" />
                         </div>
+                        </Slide>
                     </div>
                 </div>
             </section>
@@ -356,6 +385,7 @@ export default function index() {
                             <p className="pbx-heading">The S-Series IP PBX, which is simple to use, dependable, and feature-rich, is intended to assist small and medium-sized enterprises in making significant gains in efficiency and cost savings. The unique S-Series unlocks the power of unified communications, offers considerable flexibility with field-upgradable modular design, and connects to traditional lines, VoIP lines, and cellular networks. S-Series is completely future-proof, combining business-enhancing features with free software upgrades to grow with your firm and ensure stability over time.</p>
                         </div>
                        <div className="table-div">
+                       <Zoom>
                        <table class="table table-dordred tableizer-table2">
                             <thead>
                                 <tr class="tableizer-firstrow">
@@ -459,6 +489,7 @@ export default function index() {
                                 </tr>
                             </thead>
                         </table>
+                        </Zoom>
                        </div>
                     </div>
                 </div>
@@ -467,7 +498,9 @@ export default function index() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center robust-feature-heading">
+                            <Bounce top>
                             <h3 className="yeastar-series-headings">Robust Feature Set for All of Your Calling Needs</h3>
+                            </Bounce>
                         </div>
                         <div className="col-12 col-md-4">
                             <div className="robust-feature-dicription">
@@ -539,15 +572,21 @@ export default function index() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center robust-feature-heading">
+                        <Bounce top>
                             <h3 className="">Flexible Modular Design</h3>
+                            </Bounce>
                         </div>
                         <div className="col-12 col-md-5">
+                            <Zoom>
                             <img src="/image/logo/flexible1.gif" className="img-fluid" />
+                            </Zoom>
                         </div>
                         <div className="col-12 col-md-7">
+                            <Zoom>
                             <div className="d-flex justify-content-end">
                                 <img src="/image/logo/modules.png" className="img-fluid" />
                             </div>
+                            </Zoom>
                         </div>
                     </div>
                 </div>
@@ -560,6 +599,7 @@ export default function index() {
                             <p className="pbx-heading">Yeastar VoIP Gateways connect FXS, FXO, PRI, BRI, GSM, WCDMA, 4G LTE, and IP networks to minimize operational expenses and provide the convenience of traditional telephony circuits to a variety of manufacturer VoIP phone systems. These gateways are the most effective VOIP solutions in the UAE region.</p>
                         </div>
                         <div className="col-12 col-md-6">
+                            <Slide left>
                             <div className="gateways-heading">
                                 <h2 className="yeastar-series-headings">TA Series FXO VoIP Gateway</h2>
                                 <p className="pbx-heading">Yeastar TA FXO VoIP Gateways provide four, eight, or sixteen ports for connecting analogue phone lines or PABX extension interfaces to VoIP networks. For office-to-office voice connectivity in the UAE Africa region, it is a cost-effective and dependable solution.</p>
@@ -592,16 +632,21 @@ export default function index() {
                                     </tbody>
                                 </table>
                             </div>
+                            </Slide>
                         </div>
                         <div className="col-12 col-md-6">
+                        <Zoom>
                             <div className="">
-                                <img src="/image/logo/Yeastar-FXO-Gateway-UAE.png" className="img-fluid" />
+                                <img src="/image/logo/Yeastar-FXO-Gateway-UAE.png" className="img-fluid" />                        
                             </div>
+                            </Zoom>
                         </div>
                         <div className="col-12 col-md-6">
+                            <Slide left>
                             <div className="">
                                 <img src="/image/logo/yeastar-solution.png" className="img-fluid" />
                             </div>
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -610,6 +655,7 @@ export default function index() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-6">
+                            <Slide left>
                             <div className="">
                                 <h2 className="yeastar-series-headings">Yeastar TG Series VOIP Gateway</h2>
                                 <p className="pbx-heading">Yeastar TG is a VoIP GSM/3G/4G gateway that connects GSM, 3G WCDMA, or 4G LTE networks directly to VoIP networks and burdens communication: GSM/3G/TG to VoIP or VoIP to GSM/3G/4G. It is the greatest solution for connecting IP-based telephone systems and soft-switches to GSM/3G/4G networks in the UAE, as well as the best fallback solution when the landline goes down.</p>
@@ -646,16 +692,22 @@ export default function index() {
                                     </tbody>
                                 </table>
                             </div>
+                            </Slide>
                         </div>
                         <div className="col-12 col-md-6 align-items-end d-flex">
-                            <div className="">
+                            <Zoom>
+                                 <div className="">
                                 <img src="/image/logo/yeatar-gateways2.jpg" className="img-fluid" />
                             </div>
+                            </Zoom>
                         </div>
+
                         <div className="col-12  align-items-center justify-content-center d-flex">
-                            <div className="gateways2-image">
+                           <Slide bottom>
+                                <div className="gateways2-image">
                                 <img src="/image/logo/yeastar-gateways.png" className="img-fluid" />
                             </div>
+                            </Slide>
                         </div>
                     </div>
                 </div>
@@ -664,12 +716,15 @@ export default function index() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-6">
+                        <Slide left>
                             <div className="">
                                 <h2 className="yeastar-series-headings">Yeastar TA Series FXS VoIP Gateway</h2>
                                 <p className="pbx-heading">Yeastar TA Analog VoIP Gateways are cutting-edge solutions that connect traditional telephones, fax machines, and PBX systems to IP telephony networks and IP-based PBX systems. TA is suitable for small and medium businesses who want to integrate a traditional phone system into an IP-based system, thanks to its extensive functionality and simple implementation. With the genuine benefits of VoIP, TA assists them in preserving their past investment in conventional telephone systems while drastically lowering communication costs.</p>
                             </div>
+                        </Slide>
                         </div>
                         <div className="col-12 col-md-6">
+                        <Slide left>
                             <div className="table-div">
                                 <table class="table table-dordred tableizer-table3 tableizer-table2">
                                     <thead>
@@ -708,11 +763,14 @@ export default function index() {
                                     </tbody>
                                 </table>
                             </div>
+                            </Slide>
                         </div>
                         <div className="col-12  align-items-center justify-content-center d-flex">
+                        <Zoom>
                             <div className="gateways2-image">
                                 <img src="/image/logo/yeastar-Gateways-olution.png" className="img-fluid mt-2 mb-2" />
                             </div>
+                            </Zoom>
                         </div>
                     </div>
                 </div>
@@ -720,6 +778,7 @@ export default function index() {
             <section className="yeastar-ta-section">
                 <div className="container">
                     <div className="row">
+                    <Slide right>
                         <div className="col-12 col-md-8">
                             <div className="">
 
@@ -747,6 +806,7 @@ export default function index() {
                                     </tr>
                                 </tbody>
                             </table>
+                            
                         </div>
                         <div className="col-12 col-md-4 d-flex align-items-end">
                             <div className="">
@@ -761,12 +821,15 @@ export default function index() {
                                     <li>Connect multiple PABX at different sites</li>
                                     <li>Compatible with various ISDN PBX, IP-PBX</li>
                                 </ul>
-                            </div>
+                            </div>                           
                         </div>
+                        </Slide>
                         <div className="col-12  align-items-center justify-content-center d-flex">
+                            <Zoom>
                             <div className="gateways2-image">
                                 <img src="/image/logo/yeastar-Gateways-olution2.jpg" className="img-fluid mt-2 mb-2" />
                             </div>
+                            </Zoom>
                         </div>
                     </div>
                 </div>

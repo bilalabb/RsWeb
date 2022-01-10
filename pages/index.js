@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
 import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 import { fadeIn } from 'react-animations'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -339,6 +340,7 @@ export default function Home() {
 
             <div className="second-card col-md-3 col-12">
               <span className="second-card-img">
+                
                 <img src="/image/yealink.jpg"
                   className="card-img-top"
                   alt="" />

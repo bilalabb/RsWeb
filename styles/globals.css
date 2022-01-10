@@ -1124,11 +1124,15 @@ font-size: 40px;
 line-height: 60px;
 }
 .paragraph-two {
-padding: 5rem 19rem 6rem 5rem;
+  display: flex;
+  align-items: center;
 background-color: #37a1da;
 height: 35.3rem;
 font-size: 18px;
 color: #fff;
+}
+.paragraph-two div{
+  margin-left: 90px;
 }
 .high-qualty-section .logo-slider-2 {
 position: relative;
@@ -1620,6 +1624,9 @@ background-color: rgb(69, 115, 241);
 .navbar-brand .logo {
   width: 100px;
 }
+.paragraph-two div {
+  margin-left: 0px;
+}
 .navbar-collapse .navbar-nav .nav-item{
   padding: 0;
   height: auto;
@@ -2072,6 +2079,10 @@ list-style: none;
     left: 6px;
     z-index: 9999;
     background: #fff;
+  }
+  .paragraph2{
+    font-size: 15px;
+    text-align: left;
   }
 }
 @media (max-width: 320px){
