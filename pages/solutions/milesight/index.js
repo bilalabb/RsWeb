@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { Flip, Zoom, Slide } from "react-reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faChevronRight,
@@ -14,7 +15,8 @@ export default function index() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div className="">
+                           <Slide left>
+                           <div className="">
                             <h1 className="yeastar-series-headings">
 
                             Milesight Surveillance Solutions
@@ -26,9 +28,13 @@ export default function index() {
                                 The strength of Milesight's R&D capacity is its fundamental competency. Milesight is able to provide novel products and provide tailored solutions to clients based on strong expertise and years of experience.
                                 </p>
                             </div>
+                           </Slide>
                         </div>
                         <div className="col-12 col-md-12">
+                            <Zoom>
                             <img src="/image/logo/milesight-solution3.png" className="img-fluid" />
+                            </Zoom>
+                           
                         </div>
                     </div>
                 </div>

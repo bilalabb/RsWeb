@@ -112,7 +112,7 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
       <section className="shake-hand-section">
         <div className="shake-hand-maindiv col-md-12">
           <div className="col-md-6 col-12 ">
-            <img src="/image/36S0N.jpeg" />
+            <img src="/image/teem.jpg" />
           </div>
           <div className="col-md-6  col-12 paragraph-two">
             <div className=" col-md-7">

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
+import Slide from 'react-reveal/Slide';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronRight,
@@ -46,23 +47,22 @@ export default function ContactUs() {
   return (
     <>
       <section className="contact-section">
+        <Slide top>
         <div className="contact-image">
           {/* <img src="assets/image/Layer.png"> */}
           <div className="header-contact">
             <h1>Contact Us</h1>
             <div className="bottom-border" />
-            {/* <p>
-              When you is simply Dummy text of the printing and typesetting
-              industry.
-            </p> */}
           </div>
           {/* <div className="overly" /> */}
         </div>
+        </Slide>
       </section>
 
       <section className="user-detail">
         <div className="container">
           <div className="row">
+            <Slide top>
             <div className="header">
               <h2>
                 For Business Query 
@@ -70,11 +70,13 @@ export default function ContactUs() {
                 <div className="header-bottom-border" />
               </h2>
             </div>
+            
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p>
                Fill this form to get a quote.{" "}
               </p>
             </div>
+            </Slide>
             <div className="input-user">
               <div className="name-input">
                 <label
