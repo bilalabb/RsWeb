@@ -1718,7 +1718,7 @@ background-color: rgb(69, 115, 241);
   display: block;
 }
 .slick-dots {
-  bottom: -12px;
+  bottom: 5px;
 }
 .slider-section .fa-chevron-right {
   right: 16%;
@@ -1728,7 +1728,7 @@ background-color: rgb(69, 115, 241);
 }
 .slider-section .fa-chevron-left,
 .slider-section .fa-chevron-right {
-  top: 99.9% !important;
+  top: 96.9% !important;
 }
 .section-3 {
   padding: 40px 0 40px;
