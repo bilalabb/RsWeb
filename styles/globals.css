@@ -2042,7 +2042,7 @@ list-style: none;
     background-color: #f7f9fa !important;
     color: #000;
     left: 0;
-    position: relative;
+    position: relative !important;
     top: 100%;
     padding: 20px 0;
     border: none;
