@@ -1269,6 +1269,7 @@ height: 500px;
 }
 .dropdown-menu-costam:hover .dropdown-menu{
   display: inline-block;
+  position: relative;
   }
   .dropdown-menu-costam{
     color: #000 !important;
@@ -1600,7 +1601,6 @@ background-color: rgb(69, 115, 241);
 .dropdown-menu {
   background-color: #f7f9fa !important;
   color: #000;
-  position: absolute !important;
   left: 0;
   top: 100%;
   padding: 20px 0;
@@ -2041,8 +2041,8 @@ list-style: none;
   .dropdown-menu {
     background-color: #f7f9fa !important;
     color: #000;
-    position: absolute !important;
     left: 0;
+    position: relative;
     top: 100%;
     padding: 20px 0;
     border: none;
