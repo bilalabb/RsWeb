@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
-import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import { fadeIn } from 'react-animations'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -75,6 +74,8 @@ export default function Home() {
             <Slider {...settings}>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <div className="carousel-caption-inner">
+                  <div>
                   <Slide top>
                     <img src="/image/logo/794-engenius_logo-removebg-preview.png"
                       className="img-fluid"
@@ -86,19 +87,25 @@ export default function Home() {
                       EnGenius access points and cloud solutions are user-friendly amenities in modern life
                     </p>
                   </Slide>
+                  </div>
+                  </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                  <Zoom>
+                 <div>
+                 <Zoom>
                     <img
                       src="/image/slider-top-img/outdoor-series.png"
                       className="d-block"
                       alt="..."
                     />
                   </Zoom>
+                 </div>
                 </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
+                <div className="carousel-caption-inner">
+                  <div>
                   <Slide top>
                     <img src="/image/logo/yealink-1-removebg-preview.png"
                       className="img-fluid"
@@ -110,8 +117,11 @@ export default function Home() {
                       Yealink's communication devices are some of the world's top leading products in the market
                     </p>
                   </Slide>
+                  </div>
+                  </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
+                 <div>
                   <Zoom>
                     <img
                       src="/image/slider-top-img/1-removebg-preview.png"
@@ -120,9 +130,12 @@ export default function Home() {
                     />
                   </Zoom>
                 </div>
+                </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
+                <div className="carousel-caption-inner">
+                  <div>
                   <Slide top>
                     <img src="/image/logo/yeastar-removebg-preview.png"
                       className="img-fluid"
@@ -134,8 +147,11 @@ export default function Home() {
                       Yeastar's Topnotch PBX system and Gateways in the modern-day market
                     </p>
                   </Slide>
+                  </div>
+                  </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
+                 <div>
                   <Zoom>
                     <img
                       src="/image/slider-top-img/111.png"
@@ -145,9 +161,11 @@ export default function Home() {
                   </Zoom>
                 </div>
               </div>
-
+              </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
+                <div className="carousel-caption-inner">
+                  <div>
                   <Zoom><img src="/image/logo/milight-removebg-preview.png"
                     className="img-fluid"
                     alt="..."
@@ -157,8 +175,11 @@ export default function Home() {
                     Milesight's Unmatchable Surveillance systems in the market with their unbeatable features
                   </p>
                   </Slide>
+                  </div>
+                  </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
+                 <div>
                   <Zoom>
                     <img
                       src="/image/slider-top-img/MicrosoftTeams-image__4_-removebg-preview.png"
@@ -168,8 +189,11 @@ export default function Home() {
                   </Zoom>
                 </div>
               </div>
+              </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
+                <div className="carousel-caption-inner">
+                  <div>
                   <Slide top>
                     <img src="/image/logo/Akuvox-removebg-preview.png"
                       className="img-fluid"
@@ -182,7 +206,10 @@ export default function Home() {
                     </p>
                   </Slide>
                 </div>
+                </div>
+                </div>
                 <div className="slider-top-img col-12 col-md-8">
+                 <div>
                   <Zoom>
                     <img
                       src="/image/slider-top-img/MicrosoftTeams-image__5_-removebg-preview.png"
@@ -192,9 +219,11 @@ export default function Home() {
                   </Zoom>
                 </div>
               </div>
-
+              </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
+                <div className="carousel-caption-inner">
+                  <div>
                   <Slide left>
                     <img src="/image/logo/2n-telekomunikace-a-s-logo-vector-removebg-preview.png"
                       className="img-fluid logo-2n"
@@ -206,8 +235,11 @@ export default function Home() {
                     2N's intercoms are equipped with the top-notch technology available and an addition to your premium living
                   </p>
                  </Slide>
+                 </div>
+                 </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
+                 <div>
                  <Zoom>
                  <img
                     src="/image/slider-top-img/MicrosoftTe-ms-image.png"
@@ -217,8 +249,11 @@ export default function Home() {
                  </Zoom>
                 </div>
               </div>
+              </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
+                <div className="carousel-caption-inner">
+                  <div>
 <Slide top>
 <img src="/image/logo/DrayTek_logo-removebg-preview.png"
                     className="img-fluid"
@@ -231,7 +266,10 @@ export default function Home() {
                   </p>
                  </Slide>
                 </div>
+                </div>
+                </div>
                 <div className="slider-top-img col-12 col-md-8">
+                 <div>
                   <Slide right>
                   <img
                     src="/image/slider-top-img/MicrosoftTeams-image drytek.png"
@@ -241,8 +279,11 @@ export default function Home() {
                   </Slide>
                 </div>
               </div>
+              </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
+                <div className="carousel-caption-inner">
+                  <div>
                  <Slide top>
                  <img src="/image/logo/xcally-removebg-preview.png"
                     className="img-fluid"
@@ -255,7 +296,10 @@ export default function Home() {
                   </p>
                 </Slide>
                 </div>
+                </div>
+                </div>
                 <div className="slider-top-img col-12 col-md-8">
+                 <div>
                   <Zoom>
                   <img
                     src="/image/slider-top-img/xca.png"
@@ -265,7 +309,7 @@ export default function Home() {
                   </Zoom>
                 </div>
               </div>
-
+              </div>
             </Slider>
           </div>
         </div>
@@ -274,20 +318,22 @@ export default function Home() {
       <section className="section-3">
         <div className="container">
           <div className="row">
+          <Slide top>
             <div className="header">
-              <Slide top>
                 <h2>
                   Our Three Core Steps{" "}
                   <div className="header-bottom-border" />
                 </h2>
-              </Slide>
+             
             </div>
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <p>
                 The trust and confidence we earn from our employees and customers are crucial to the success of our Company. We establish trust by operating with honesty, integrity and accomplishing business objectives via ethical behavior.{" "}
               </p>
             </div>
-            <div className="card-main-div">
+            </Slide>
+<Zoom>
+<div className="card-main-div">
               <div className="first-card col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div className="card-body first-card-body">
                   <div className="icon">
@@ -331,6 +377,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+</Zoom>
           </div>
         </div>
       </section>
@@ -340,8 +387,11 @@ export default function Home() {
             <div className="card-about-div col-lg-12 col-md-12">
               <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div className="card-about">
+                  <Slide top>
                   <h2 className="card-title">About us</h2>
-                  <p className="card-text">
+                  </Slide>
+                 <Slide left>
+                 <p className="card-text">
                     RSTECH is the technology arm of Reactive Space.
 
                     Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.
@@ -362,10 +412,13 @@ export default function Home() {
                       <FontAwesomeIcon icon={faChevronRight} />
                     </span>
                   </div>
+                 </Slide>
                 </div>
               </div>
               <div className="card-image col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img src="/image/36S0N.jpeg" alt="36S0N.jpeg" />
+               <Slide right>
+               <img src="/image/36S0N.jpeg" alt="36S0N.jpeg" />
+               </Slide>
               </div>
             </div>
           </div>
@@ -374,6 +427,7 @@ export default function Home() {
       <section className="product-categories-section-1">
         <div className="container">
           <div className="row">
+            <Slide top>
             <div className="header">
               <h2>
                 Product Categories <div className="header-bottom-border" />
@@ -384,8 +438,8 @@ export default function Home() {
                 We build credibility by keeping our promises, acting with honesty and integrity. We bring you products from one of the finest brands out there{" "}
               </p>
             </div>
-
-            <div className="second-card col-md-3 col-12">
+            </Slide>
+            <div className="second-card col-lg-3 col-md-6 col-12">
               <span className="second-card-img">
 
                 <img src="/image/yealink.jpg"
@@ -399,7 +453,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+            <div className="second-card col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <span className="second-card-img">
                 <img
                   src="/image/1-1.png"
@@ -414,7 +468,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+            <div className="second-card col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <span className="second-card-img">
                 <img
                   src="/image/milesight_show.jpg"
@@ -429,7 +483,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+            <div className="second-card col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <span className="second-card-img">
                 <img
                   src="/image/4-1.png"
@@ -444,7 +498,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+            <div className="second-card col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <span className="second-card-img">
                 <img
                   src="/image/5-1.png"
@@ -459,7 +513,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+            <div className="second-card col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <span className="second-card-img">
                 <img
                   src="/image/3-1.png"
@@ -474,7 +528,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+            <div className="second-card col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <span className="second-card-img">
                 <img
                   src="/image/outdoor-series.png"
@@ -490,7 +544,7 @@ export default function Home() {
               </div>
 
             </div>
-            <div className="second-card col-md-3 col-sm-12 col-xs-12">
+            <div className="second-card col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <span className="second-card-img">
                 <img
                   src="/image/draytek-products.png"
@@ -512,11 +566,13 @@ export default function Home() {
       <section className="Upcoming-Products-section">
         <div className="container">
           <div className="row">
-            <div className="header">
+           <Slide top>
+           <div className="header">
               <h2>
                 Upcoming Products <div className="header-bottom-border" />
               </h2>
             </div>
+           </Slide>
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12 m-2How can we help your Business?">
               {/* <p>
                 We are a team of astronauts (not literally) who are building
