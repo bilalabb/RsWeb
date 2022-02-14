@@ -15,7 +15,7 @@ export default function Home() {
   var settings = {
     dots: true,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -75,240 +75,240 @@ export default function Home() {
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
                   <div className="carousel-caption-inner">
-                  <div>
-                  <Slide top>
-                    <img src="/image/logo/794-engenius_logo-removebg-preview.png"
-                      className="img-fluid"
-                      alt="..."
-                    />
-                  </Slide>
-                  <Slide left>
-                    <p>
-                      EnGenius access points and cloud solutions are user-friendly amenities in modern life
-                    </p>
-                  </Slide>
-                  </div>
+                    <div>
+                      <Slide top>
+                        <img src="/image/logo/794-engenius_logo-removebg-preview.png"
+                          className="img-fluid"
+                          alt="..."
+                        />
+                      </Slide>
+                      <Slide left>
+                        <p>
+                          EnGenius access points and cloud solutions are user-friendly amenities in modern life
+                        </p>
+                      </Slide>
+                    </div>
                   </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                 <div>
-                 <Zoom>
-                    <img
-                      src="/image/slider-top-img/outdoor-series.png"
-                      className="d-block"
-                      alt="..."
-                    />
-                  </Zoom>
-                 </div>
+                  <div>
+                    <Zoom>
+                      <img
+                        src="/image/slider-top-img/outdoor-series.png"
+                        className="d-block"
+                        alt="..."
+                      />
+                    </Zoom>
+                  </div>
                 </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                <div className="carousel-caption-inner">
-                  <div>
-                  <Slide top>
-                    <img src="/image/logo/yealink-1-removebg-preview.png"
-                      className="img-fluid"
-                      alt="..."
-                    />
-                  </Slide>
-                  <Slide left>
-                    <p>
-                      Yealink's communication devices are some of the world's top leading products in the market
-                    </p>
-                  </Slide>
-                  </div>
+                  <div className="carousel-caption-inner">
+                    <div>
+                      <Slide top>
+                        <img src="/image/logo/yealink-1-removebg-preview.png"
+                          className="img-fluid"
+                          alt="..."
+                        />
+                      </Slide>
+                      <Slide left>
+                        <p>
+                          Yealink's communication devices are some of the world's top leading products in the market
+                        </p>
+                      </Slide>
+                    </div>
                   </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                 <div>
-                  <Zoom>
-                    <img
-                      src="/image/slider-top-img/1-removebg-preview.png"
-                      className="d-block"
-                      alt="..."
-                    />
-                  </Zoom>
-                </div>
+                  <div>
+                    <Zoom>
+                      <img
+                        src="/image/slider-top-img/1-removebg-preview.png"
+                        className="d-block"
+                        alt="..."
+                      />
+                    </Zoom>
+                  </div>
                 </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                <div className="carousel-caption-inner">
-                  <div>
-                  <Slide top>
-                    <img src="/image/logo/yeastar-removebg-preview.png"
-                      className="img-fluid"
-                      alt="..."
-                    />
-                  </Slide>
-                  <Slide left>
-                    <p>
-                      Yeastar's Topnotch PBX system and Gateways in the modern-day market
-                    </p>
-                  </Slide>
-                  </div>
-                  </div>
-                </div>
-                <div className="slider-top-img col-12 col-md-8">
-                 <div>
-                  <Zoom>
-                    <img
-                      src="/image/slider-top-img/111.png"
-                      className="d-block"
-                      alt="..."
-                    />
-                  </Zoom>
-                </div>
-              </div>
-              </div>
-              <div className="carousel-item active">
-                <div className="carousel-caption d-md-block col-12 col-md-4">
-                <div className="carousel-caption-inner">
-                  <div>
-                  <Zoom><img src="/image/logo/milight-removebg-preview.png"
-                    className="img-fluid"
-                    alt="..."
-                  />
-                  </Zoom>
-                  <Slide left><p>
-                    Milesight's Unmatchable Surveillance systems in the market with their unbeatable features
-                  </p>
-                  </Slide>
-                  </div>
+                  <div className="carousel-caption-inner">
+                    <div>
+                      <Slide top>
+                        <img src="/image/logo/yeastar-removebg-preview.png"
+                          className="img-fluid"
+                          alt="..."
+                        />
+                      </Slide>
+                      <Slide left>
+                        <p>
+                          Yeastar's Topnotch PBX system and Gateways in the modern-day market
+                        </p>
+                      </Slide>
+                    </div>
                   </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                 <div>
-                  <Zoom>
-                    <img
-                      src="/image/slider-top-img/MicrosoftTeams-image__4_-removebg-preview.png"
-                      className="d-block"
-                      alt="..."
-                    />
-                  </Zoom>
+                  <div>
+                    <Zoom>
+                      <img
+                        src="/image/slider-top-img/111.png"
+                        className="d-block"
+                        alt="..."
+                      />
+                    </Zoom>
+                  </div>
                 </div>
-              </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                <div className="carousel-caption-inner">
-                  <div>
-                  <Slide top>
-                    <img src="/image/logo/Akuvox-removebg-preview.png"
-                      className="img-fluid"
-                      alt="..."
-                    />
-                  </Slide>
-                  <Slide left>
-                    <p>
-                      Smart intercoms from Akuvox is essential to a luxurious lifestyle
-                    </p>
-                  </Slide>
-                </div>
-                </div>
+                  <div className="carousel-caption-inner">
+                    <div>
+                      <Zoom><img src="/image/logo/milight-removebg-preview.png"
+                        className="img-fluid"
+                        alt="..."
+                      />
+                      </Zoom>
+                      <Slide left><p>
+                        Milesight's Unmatchable Surveillance systems in the market with their unbeatable features
+                      </p>
+                      </Slide>
+                    </div>
+                  </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                 <div>
-                  <Zoom>
-                    <img
-                      src="/image/slider-top-img/MicrosoftTeams-image__5_-removebg-preview.png"
-                      className="d-block"
-                      alt="..."
-                    />
-                  </Zoom>
+                  <div>
+                    <Zoom>
+                      <img
+                        src="/image/slider-top-img/MicrosoftTeams-image__4_-removebg-preview.png"
+                        className="d-block"
+                        alt="..."
+                      />
+                    </Zoom>
+                  </div>
                 </div>
-              </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                <div className="carousel-caption-inner">
-                  <div>
-                  <Slide left>
-                    <img src="/image/logo/2n-telekomunikace-a-s-logo-vector-removebg-preview.png"
-                      className="img-fluid logo-2n"
-                      alt="..."
-                    />
-                  </Slide>
-                 <Slide bottom>
-                 <p>
-                    2N's intercoms are equipped with the top-notch technology available and an addition to your premium living
-                  </p>
-                 </Slide>
-                 </div>
-                 </div>
+                  <div className="carousel-caption-inner">
+                    <div>
+                      <Slide top>
+                        <img src="/image/logo/Akuvox-removebg-preview.png"
+                          className="img-fluid"
+                          alt="..."
+                        />
+                      </Slide>
+                      <Slide left>
+                        <p>
+                          Smart intercoms from Akuvox is essential to a luxurious lifestyle
+                        </p>
+                      </Slide>
+                    </div>
+                  </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                 <div>
-                 <Zoom>
-                 <img
-                    src="/image/slider-top-img/MicrosoftTe-ms-image.png"
-                    className="d-block"
-                    alt="..."
-                  />
-                 </Zoom>
+                  <div>
+                    <Zoom>
+                      <img
+                        src="/image/slider-top-img/MicrosoftTeams-image__5_-removebg-preview.png"
+                        className="d-block"
+                        alt="..."
+                      />
+                    </Zoom>
+                  </div>
                 </div>
-              </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                <div className="carousel-caption-inner">
-                  <div>
-<Slide top>
-<img src="/image/logo/DrayTek_logo-removebg-preview.png"
-                    className="img-fluid"
-                    alt="..."
-                  />
-</Slide>
-                 <Slide left>
-                 <p>
-                    DrayTekFrom ISDN, VDSL to LTE, DrayTek has always been striving to provide SMBs and professional with reliable, fast and secure connections.
-                  </p>
-                 </Slide>
-                </div>
-                </div>
+                  <div className="carousel-caption-inner">
+                    <div>
+                      <Slide left>
+                        <img src="/image/logo/2n-telekomunikace-a-s-logo-vector-removebg-preview.png"
+                          className="img-fluid logo-2n"
+                          alt="..."
+                        />
+                      </Slide>
+                      <Slide bottom>
+                        <p>
+                          2N's intercoms are equipped with the top-notch technology available and an addition to your premium living
+                        </p>
+                      </Slide>
+                    </div>
+                  </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                 <div>
-                  <Slide right>
-                  <img
-                    src="/image/slider-top-img/MicrosoftTeams-image drytek.png"
-                    className="d-block"
-                    alt="..."
-                  />
-                  </Slide>
+                  <div>
+                    <Zoom>
+                      <img
+                        src="/image/slider-top-img/MicrosoftTe-ms-image.png"
+                        className="d-block"
+                        alt="..."
+                      />
+                    </Zoom>
+                  </div>
                 </div>
-              </div>
               </div>
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
-                <div className="carousel-caption-inner">
-                  <div>
-                 <Slide top>
-                 <img src="/image/logo/xcally-removebg-preview.png"
-                    className="img-fluid"
-                    alt="..."
-                  />
-                 </Slide>
-                <Slide left>
-                <p>
-                    XCALLY provides highly dependable and scalable call center solutions
-                  </p>
-                </Slide>
-                </div>
-                </div>
+                  <div className="carousel-caption-inner">
+                    <div>
+                      <Slide top>
+                        <img src="/image/logo/DrayTek_logo-removebg-preview.png"
+                          className="img-fluid"
+                          alt="..."
+                        />
+                      </Slide>
+                      <Slide left>
+                        <p>
+                          DrayTekFrom ISDN, VDSL to LTE, DrayTek has always been striving to provide SMBs and professional with reliable, fast and secure connections.
+                        </p>
+                      </Slide>
+                    </div>
+                  </div>
                 </div>
                 <div className="slider-top-img col-12 col-md-8">
-                 <div>
-                  <Zoom>
-                  <img
-                    src="/image/slider-top-img/xca.png"
-                    className="d-block"
-                    alt="..."
-                  />
-                  </Zoom>
+                  <div>
+                    <Slide right>
+                      <img
+                        src="/image/slider-top-img/MicrosoftTeams-image drytek.png"
+                        className="d-block"
+                        alt="..."
+                      />
+                    </Slide>
+                  </div>
                 </div>
               </div>
+              <div className="carousel-item active">
+                <div className="carousel-caption d-md-block col-12 col-md-4">
+                  <div className="carousel-caption-inner">
+                    <div>
+                      <Slide top>
+                        <img src="/image/logo/xcally-removebg-preview.png"
+                          className="img-fluid"
+                          alt="..."
+                        />
+                      </Slide>
+                      <Slide left>
+                        <p>
+                          XCALLY provides highly dependable and scalable call center solutions
+                        </p>
+                      </Slide>
+                    </div>
+                  </div>
+                </div>
+                <div className="slider-top-img col-12 col-md-8">
+                  <div>
+                    <Zoom>
+                      <img
+                        src="/image/slider-top-img/xca.png"
+                        className="d-block"
+                        alt="..."
+                      />
+                    </Zoom>
+                  </div>
+                </div>
               </div>
             </Slider>
           </div>
@@ -318,66 +318,66 @@ export default function Home() {
       <section className="section-3">
         <div className="container">
           <div className="row">
-          <Slide top>
-            <div className="header">
+            <Slide top>
+              <div className="header">
                 <h2>
                   Our Three Core Steps{" "}
                   <div className="header-bottom-border" />
                 </h2>
-             
-            </div>
-            <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <p>
-                The trust and confidence we earn from our employees and customers are crucial to the success of our Company. We establish trust by operating with honesty, integrity and accomplishing business objectives via ethical behavior.{" "}
-              </p>
-            </div>
+
+              </div>
+              <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                  The trust and confidence we earn from our employees and customers are crucial to the success of our Company. We establish trust by operating with honesty, integrity and accomplishing business objectives via ethical behavior.{" "}
+                </p>
+              </div>
             </Slide>
-<Zoom>
-<div className="card-main-div">
-              <div className="first-card col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div className="card-body first-card-body">
-                  <div className="icon">
-                    <img
-                      src="/image/loupe.png"
-                      className="img-fluid icon-inner-image"
-                    />
+            <Zoom>
+              <div className="card-main-div">
+                <div className="first-card col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <div className="card-body first-card-body">
+                    <div className="icon">
+                      <img
+                        src="/image/loupe.png"
+                        className="img-fluid icon-inner-image"
+                      />
+                    </div>
+                    <h4>Find out what you need</h4>
+                    <p className="card-text">
+                      We present you a proposal and discuss all the details
+                    </p>
                   </div>
-                  <h4>Find out what you need</h4>
-                  <p className="card-text">
-                    We present you a proposal and discuss all the details
-                  </p>
+                </div>
+                <div className="first-card col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <div className="card-body first-card-body">
+                    <div className="icon">
+                      <img
+                        src="/image/settings.png"
+                        className="img-fluid icon-inner-image"
+                      />
+                    </div>
+                    <h4>Work out the details</h4>
+                    <p className="card-text">
+                      Communication protocols apart from engagement models
+                    </p>
+                  </div>
+                </div>
+                <div className="first-card col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <div className="card-body first-card-body">
+                    <div className="icon">
+                      <img
+                        src="/image/logo-3.png"
+                        className="img-fluid icon-inner-image"
+                      />
+                    </div>
+                    <h4>We get to work fast</h4>
+                    <p className="card-text">
+                      Protocols apart from engage models, pricing billing
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="first-card col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div className="card-body first-card-body">
-                  <div className="icon">
-                    <img
-                      src="/image/settings.png"
-                      className="img-fluid icon-inner-image"
-                    />
-                  </div>
-                  <h4>Work out the details</h4>
-                  <p className="card-text">
-                    Communication protocols apart from engagement models
-                  </p>
-                </div>
-              </div>
-              <div className="first-card col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div className="card-body first-card-body">
-                  <div className="icon">
-                    <img
-                      src="/image/logo-3.png"
-                      className="img-fluid icon-inner-image"
-                    />
-                  </div>
-                  <h4>We get to work fast</h4>
-                  <p className="card-text">
-                    Protocols apart from engage models, pricing billing
-                  </p>
-                </div>
-              </div>
-            </div>
-</Zoom>
+            </Zoom>
           </div>
         </div>
       </section>
@@ -388,37 +388,37 @@ export default function Home() {
               <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div className="card-about">
                   <Slide top>
-                  <h2 className="card-title">About us</h2>
+                    <h2 className="card-title">About us</h2>
                   </Slide>
-                 <Slide left>
-                 <p className="card-text">
-                    RSTECH is the technology arm of Reactive Space.
+                  <Slide left>
+                    <p className="card-text">
+                      RSTECH is the technology arm of Reactive Space.
 
-                    Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.
-                  </p>
-                  <p className="card-text card-text-2">
-                    Not only that, our white-label solutions are powering
-                    startup companies and enabling SMEs to fully explore their
-                    potential and expand their operations. Not only that, our
-                    white-label solutions are powering startup companies and
-                    enabling SMEs to fully explore their potential and expand
-                    their operations. Not only that, our white-label solutions
-                    are powering startup companies{" "}
-                  </p>
-                  <div className="read-more">
-                    <span>
-                      <a href="#" className="text-white">Read more</a>
-                      <FontAwesomeIcon className="ms-2" icon={faChevronRight} />
-                      <FontAwesomeIcon icon={faChevronRight} />
-                    </span>
-                  </div>
-                 </Slide>
+                      Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.
+                    </p>
+                    <p className="card-text card-text-2">
+                      Not only that, our white-label solutions are powering
+                      startup companies and enabling SMEs to fully explore their
+                      potential and expand their operations. Not only that, our
+                      white-label solutions are powering startup companies and
+                      enabling SMEs to fully explore their potential and expand
+                      their operations. Not only that, our white-label solutions
+                      are powering startup companies{" "}
+                    </p>
+                    <div className="read-more">
+                      <span>
+                        <a href="#" className="text-white">Read more</a>
+                        <FontAwesomeIcon className="ms-2" icon={faChevronRight} />
+                        <FontAwesomeIcon icon={faChevronRight} />
+                      </span>
+                    </div>
+                  </Slide>
                 </div>
               </div>
               <div className="card-image col-lg-6 col-md-6 col-sm-12 col-xs-12">
-               <Slide right>
-               <img src="/image/36S0N.jpeg" alt="36S0N.jpeg" />
-               </Slide>
+                <Slide right>
+                  <img src="/image/36S0N.jpeg" alt="36S0N.jpeg" />
+                </Slide>
               </div>
             </div>
           </div>
@@ -428,16 +428,16 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <Slide top>
-            <div className="header">
-              <h2>
-                Product Categories <div className="header-bottom-border" />
-              </h2>
-            </div>
-            <div className="paragaph-1 col-12">
-              <p>
-                We build credibility by keeping our promises, acting with honesty and integrity. We bring you products from one of the finest brands out there{" "}
-              </p>
-            </div>
+              <div className="header">
+                <h2>
+                  Product Categories <div className="header-bottom-border" />
+                </h2>
+              </div>
+              <div className="paragaph-1 col-12">
+                <p>
+                  We build credibility by keeping our promises, acting with honesty and integrity. We bring you products from one of the finest brands out there{" "}
+                </p>
+              </div>
             </Slide>
             <div className="second-card col-lg-3 col-md-6 col-12">
               <span className="second-card-img">
@@ -566,13 +566,13 @@ export default function Home() {
       <section className="Upcoming-Products-section">
         <div className="container">
           <div className="row">
-           <Slide top>
-           <div className="header">
-              <h2>
-                Upcoming Products <div className="header-bottom-border" />
-              </h2>
-            </div>
-           </Slide>
+            <Slide top>
+              <div className="header">
+                <h2>
+                  Upcoming Products <div className="header-bottom-border" />
+                </h2>
+              </div>
+            </Slide>
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12 m-2How can we help your Business?">
               {/* <p>
                 We are a team of astronauts (not literally) who are building
