@@ -14,7 +14,7 @@ export default function About() {
   var settings2 = {
     dots: false,
     infinite: true,
-    autoplay:true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -22,55 +22,55 @@ export default function About() {
     prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
     responsive: [
       {
-          breakpoint: 1024,
-          settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-          }
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
       },
       {
-          breakpoint: 600,
-          settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-          }
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
       },
       {
-          breakpoint: 480,
-          settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-          }
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
       }
 
-]
+    ]
   };
 
   return (
     <>
-     
-     <section className="About-page-section">
-       <Slide top>
-        <div className="header-about">
-          <h1>About Us</h1>
-          <div className="bottom-border" />
-          <p>
-          RSTECH is the technology arm of Reactive Space.
-          </p>
-        </div>
+
+      <section className="About-page-section">
+        <Slide top>
+          <div className="header-about">
+            <h1>About Us</h1>
+            <div className="bottom-border" />
+            <p>
+              RSTECH is the technology arm of Reactive Space.
+            </p>
+          </div>
         </Slide>
         <div className="overly" />
       </section>
-     
+
 
       <section className="paragraph2-section">
         <div className="container">
           <div className="row">
             <div className="paragraph2">
               <Slide top>
-              <p>
-Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.</p>
-              <p>RS Technology is a Pakistan-based specialized value-added reseller. We aim to provide the best technology in Pakistan. We are ideally positioned to serve Pakistan’s technology market as a VAR of products and solutions. Our respected partners are Yealink, DrayTek, Yeastar, Milesight, 2N, Akuvox, XCALLY, Engenius.</p>
+                <p>
+                  Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.</p>
+                <p>RS Technology is a Pakistan-based specialized value-added reseller. We aim to provide the best technology in Pakistan. We are ideally positioned to serve Pakistan’s technology market as a VAR of products and solutions. Our respected partners are Yealink, DrayTek, Yeastar, Milesight, 2N, Akuvox, XCALLY, Engenius.</p>
               </Slide>
             </div>
           </div>
@@ -80,14 +80,14 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
       <section className="shake-hand-section">
         <div className="shake-hand-maindiv col-md-12">
           <div className="col-md-6 col-12 paragraph-one">
-          <Slide top>
-            <h1>Mission & Vision:</h1>
-          <h3>Our Mission</h3>
+            <Slide top>
+              <h1>Mission & Vision:</h1>
+              <h3>Our Mission</h3>
 
-            <p>As our goal is “COMPLEX CONNECTION, SIMPLE SOLUTION”, our mission is to bring user-friendly technology to Pakistan. At RS technology, the trust and confidence we acquire from our workers and customers are critical to our business's success.</p>
-          <h3>Our Vision</h3>
+              <p>As our goal is “COMPLEX CONNECTION, SIMPLE SOLUTION”, our mission is to bring user-friendly technology to Pakistan. At RS technology, the trust and confidence we acquire from our workers and customers are critical to our business's success.</p>
+              <h3>Our Vision</h3>
 
-            <p>At RS Technology, We aim to build credibility by keeping our promises, acting with honesty and integrity, and achieving corporate goals only via ethical behavior. RS Technology is devoted to establishing an atmosphere of dignity and respect.</p>
+              <p>At RS Technology, We aim to build credibility by keeping our promises, acting with honesty and integrity, and achieving corporate goals only via ethical behavior. RS Technology is devoted to establishing an atmosphere of dignity and respect.</p>
             </Slide>
           </div>
           <div className="col-md-6 col-12 ">
@@ -101,8 +101,8 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
           <div className="row">
             <div className="paragraph2">
               <Slide top>
-              <h2> Customer Services.<div className="header-bottom-border" /></h2>
-              <p>We cultivate and maintain excellent working relationships with our clients in order to fully comprehend their business requirements and build a solid basis for product matching through our technology. Our client service is our greatest asset. We are in a unique position to provide a wide range of services to assist our customers with corporate solutions.</p>
+                <h2> Customer Services.<div className="header-bottom-border" /></h2>
+                <p>We cultivate and maintain excellent working relationships with our clients in order to fully comprehend their business requirements and build a solid basis for product matching through our technology. Our client service is our greatest asset. We are in a unique position to provide a wide range of services to assist our customers with corporate solutions.</p>
               </Slide>
             </div>
           </div>
@@ -116,12 +116,12 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
           </div>
           <div className="col-md-6  col-12 paragraph-two">
             <div className=" col-md-7">
-            <Slide right>
-            <h3>
-            OUR Staff
-            </h3>
-            <p>To maintain a portfolio of excellent professionals, we continue to recruit suitable technology experts. Our staff is made up of the best individuals accessible in our industry. Our screening methods are designed to discover each candidate's unique qualifications and match them to the demands of our clients. We provide flexibility and choice, as well as remove the element of risk from the recruiting process.</p>  
-            </Slide></div>          
+              <Slide right>
+                <h3>
+                  OUR Staff
+                </h3>
+                <p>To maintain a portfolio of excellent professionals, we continue to recruit suitable technology experts. Our staff is made up of the best individuals accessible in our industry. Our screening methods are designed to discover each candidate's unique qualifications and match them to the demands of our clients. We provide flexibility and choice, as well as remove the element of risk from the recruiting process.</p>
+              </Slide></div>
           </div>
         </div>
       </section>
@@ -167,7 +167,7 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
           </div>
         </div>
       </section> */}
-      
+
 
       <section className="logo-section">
         <div className="container">
@@ -177,25 +177,25 @@ Since 2014, Reactive Space is a UAE-based blockchain development company that ha
                 <img src="/image/1.jpg" alt="1.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image"/>
+                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image"/>
+                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image"/>
+                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image"/>
+                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image"/>
+                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image"/>
+                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image" />
               </div>
               <div className="slick-slide">
-                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image"/>
+                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image" />
               </div>
             </Slider>
           </div>
