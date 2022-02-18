@@ -7,6 +7,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="facebook-domain-verification" content="1schhta107zh2c8wlml6tq6g9qllhf" />
         <title>RS Tech</title>
         <link rel="icon" href="/favicon.png" />
 
