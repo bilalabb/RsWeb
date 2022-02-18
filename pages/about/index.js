@@ -1,82 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slide from 'react-reveal/Slide';
-import Slider from "react-slick";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronRight,
-  faChevronLeft,
-} from "@fortawesome/free-solid-svg-icons";
-
+import Logoslider from "../logoslider/Logoslider";
+import AboutUs from "./AboutUs";
 export default function About() {
-
-
-  var settings2 = {
-    dots: false,
-    infinite: true,
-    autoplay: true,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    nextArrow: <FontAwesomeIcon icon={faChevronRight} />,
-    prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      }
-
-    ]
-  };
 
   return (
     <>
-
-      <section className="About-page-section">
-        <Slide top>
-          <div className="header-about">
-            <h1>About Us</h1>
-            <div className="bottom-border" />
-            <p>
-              RSTECH is the technology arm of Reactive Space.
-            </p>
-          </div>
-        </Slide>
-        <div className="overly" />
-      </section>
-
-
-      <section className="paragraph2-section">
-        <div className="container">
-          <div className="row">
-            <div className="paragraph2">
-              <Slide top>
-                <p>
-                  Since 2014, Reactive Space is a UAE-based blockchain development company that has provided high-technology solutions to businesses & Entrepreneurs. Reactive Space is specialized in Blockchain services, Data Science, Artificial Intelligence, Virtual Reality, Augmented Reality, and Business Analytics. After a successful brand building, we have launched our Technology based  IT company in Pakistan "Reactive Space Technology”.</p>
-                <p>RS Technology is a Pakistan-based specialized value-added reseller. We aim to provide the best technology in Pakistan. We are ideally positioned to serve Pakistan’s technology market as a VAR of products and solutions. Our respected partners are Yealink, DrayTek, Yeastar, Milesight, 2N, Akuvox, XCALLY, Engenius.</p>
-              </Slide>
-            </div>
-          </div>
-        </div>
-      </section>
-
+<AboutUs />
       <section className="shake-hand-section">
         <div className="shake-hand-maindiv col-md-12">
           <div className="col-md-6 col-12 paragraph-one">
@@ -166,41 +97,8 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section> */}
-
-
-      <section className="logo-section">
-        <div className="container">
-          <div className="row logo-slider">
-            <Slider {...settings2} className="">
-              <div className="slick-slide">
-                <img src="/image/1.jpg" alt="1.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image" />
-              </div>
-            </Slider>
-          </div>
-        </div>
-      </section>
+  </section> */}
+      <Logoslider />
     </>
   );
 }

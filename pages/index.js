@@ -4,13 +4,17 @@ import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 import { fadeIn } from 'react-animations'
+import { CSSProperties, SVGAttributes } from 'react'
+import {
+
+} from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronRight,
   faChevronLeft,
+
 } from "@fortawesome/free-solid-svg-icons";
-
-
+import Logoslider from "./logoslider/Logoslider";
 export default function Home() {
   var settings = {
     dots: true,
@@ -32,40 +36,7 @@ export default function Home() {
     nextArrow: false,
     prevArrow: false,
   };
-  var settings2 = {
-    dots: false,
-    infinite: true,
-    autoplay: true,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    nextArrow: <FontAwesomeIcon icon={faChevronRight} />,
-    prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      }
 
-    ]
-  };
   return (
     <>
       <section className="slider-section">
@@ -135,13 +106,13 @@ export default function Home() {
               <div className="carousel-item active">
                 <div className="carousel-caption d-md-block col-12 col-md-4">
                   <div className="carousel-caption-inner">
-                    <div>
+                    <div width='40%'>
                       <Slide top>
                         <img src="/image/logo/yeastar-removebg-preview.png"
-                          className="img-fluid"
+                          className=""
                           alt="..."
                         />
-                      </Slide>
+                      </Slide>x
                       <Slide left>
                         <p>
                           Yeastar's Topnotch PBX system and Gateways in the modern-day market
@@ -341,6 +312,10 @@ export default function Home() {
                         src="/image/loupe.png"
                         className="img-fluid icon-inner-image"
                       />
+                      <img
+                        src="/image/logo/search-blue.png"
+                        className="img-fluid icon-inner-image2"
+                      />
                     </div>
                     <h4>Find out what you need</h4>
                     <p className="card-text">
@@ -355,6 +330,10 @@ export default function Home() {
                         src="/image/settings.png"
                         className="img-fluid icon-inner-image"
                       />
+                      <img
+                        src="/image/logo/settings-blue.png"
+                        className="img-fluid icon-inner-image2"
+                      />
                     </div>
                     <h4>Work out the details</h4>
                     <p className="card-text">
@@ -368,6 +347,10 @@ export default function Home() {
                       <img
                         src="/image/logo-3.png"
                         className="img-fluid icon-inner-image"
+                      />
+                      <img
+                        src="/image/logo/logo-blue.png"
+                        className="img-fluid icon-inner-image2"
                       />
                     </div>
                     <h4>We get to work fast</h4>
@@ -692,39 +675,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className="logo-section">
-        <div className="container">
-          <div className="row logo-slider">
-            <Slider {...settings2} className="">
-              <div className="slick-slide">
-                <img src="/image/1.jpg" alt="1.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/2.jpg" alt="2.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/5.jpg" alt="5.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/6.jpg" alt="6.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/8.jpg" alt="8.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/ak.png" alt="ak.png" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/11.jpg" alt="11.jpg" className="slick-slide-image" />
-              </div>
-              <div className="slick-slide">
-                <img src="/image/engenius-logo.svg" alt="engenius-logo.svg" className="slick-slide-image" />
-              </div>
-            </Slider>
-          </div>
-        </div>
-      </section>
+      <Logoslider />
     </>
   );
 }
