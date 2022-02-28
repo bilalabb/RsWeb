@@ -2,6 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressCard, faFolder, faHome, faLifeRing, faLightbulb, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faProductHunt } from "@fortawesome/free-brands-svg-icons";
 
 export default function Navbar() {
   const [navShowHandler, setNavShowHandler] = useState("");
@@ -49,18 +52,23 @@ export default function Navbar() {
                   <li className="nav-item">
                     <Link href="/">
                       <a className="nav-link active Home" aria-current="page">
-                        Home
+                        <FontAwesomeIcon icon={faHome} />
+                       <span className=""> Home</span>
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/about">
-                      <a className="nav-link">About Us</a>
+                      <a className="nav-link support-icon">
+                      <FontAwesomeIcon icon={faUser} />
+                       <span className=""> About Us</span>
+                        </a>
                     </Link>
                   </li>
                   <li class="nav-item dropdown dropdown-menu-costam">
                     <Link href="">
-                      <a class="nav-link " href="">
+                      <a class="nav-link support-icon">
+                      <FontAwesomeIcon icon={faLightbulb}/>
                        <span> Solutions</span>
                        <span>
                          <img src="/image/arrow+right.png" className="img-fluid sub-arrow"/>
@@ -98,14 +106,24 @@ export default function Navbar() {
                   <li className="nav-item">
                     <Link href="/contactus">
                       <a className="nav-link" >
-                        Contact Us
+                      <FontAwesomeIcon icon={faAddressCard}/>
+                       <span> Contact Us</span>
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="">
-                      <a className="nav-link" href="#">
-                        Support
+                      <a className="nav-link">
+                      <FontAwesomeIcon icon={faProductHunt}/>
+                       <span> Products</span>
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="">
+                      <a className="nav-link">
+                      <FontAwesomeIcon icon={faLifeRing}/>
+                       <span> Support</span>
                       </a>
                     </Link>
                   </li>

@@ -289,7 +289,6 @@ export default function Home() {
       <section className="section-3">
         <div className="container">
           <div className="row">
-            <Slide top>
               <div className="header">
                 <h2>
                   Our Three Core Steps{" "}
@@ -302,8 +301,6 @@ export default function Home() {
                   The trust and confidence we earn from our employees and customers are crucial to the success of our Company. We establish trust by operating with honesty, integrity and accomplishing business objectives via ethical behavior.{" "}
                 </p>
               </div>
-            </Slide>
-            <Zoom>
               <div className="card-main-div">
                 <div className="first-card col-lg-4 col-md-4 col-sm-12 col-xs-12">
                   <div className="card-body first-card-body">
@@ -360,7 +357,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </Zoom>
           </div>
         </div>
       </section>
@@ -370,10 +366,7 @@ export default function Home() {
             <div className="card-about-div col-lg-12 col-md-12">
               <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div className="card-about">
-                  <Slide top>
                     <h2 className="card-title">About us</h2>
-                  </Slide>
-                  <Slide left>
                     <p className="card-text">
                       RSTECH is the technology arm of Reactive Space.
 
@@ -388,20 +381,18 @@ export default function Home() {
                       their operations. Not only that, our white-label solutions
                       are powering startup companies{" "}
                     </p>
-                    <div className="read-more">
+                    {/* <div className="read-more">
                       <span>
-                        <a href="#" className="text-white">Read more</a>
+                        <a className="text-white">Read more</a>
                         <FontAwesomeIcon className="ms-2" icon={faChevronRight} />
                         <FontAwesomeIcon icon={faChevronRight} />
                       </span>
-                    </div>
-                  </Slide>
+                    </div> */}
+                 
                 </div>
               </div>
               <div className="card-image col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <Slide right>
                   <img src="/image/36S0N.jpeg" alt="36S0N.jpeg" />
-                </Slide>
               </div>
             </div>
           </div>
@@ -410,7 +401,7 @@ export default function Home() {
       <section className="product-categories-section-1">
         <div className="container">
           <div className="row">
-            <Slide top>
+           
               <div className="header">
                 <h2>
                   Product Categories <div className="header-bottom-border" />
@@ -421,7 +412,7 @@ export default function Home() {
                   We build credibility by keeping our promises, acting with honesty and integrity. We bring you products from one of the finest brands out there{" "}
                 </p>
               </div>
-            </Slide>
+  
             <div className="second-card col-lg-3 col-md-6 col-12">
               <span className="second-card-img">
 
@@ -432,7 +423,7 @@ export default function Home() {
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Yealink IP phone/video conferencng</a>
+                  <a>Yealink IP phone/video conferencng</a>
                 </p>
               </div>
             </div>
@@ -440,14 +431,14 @@ export default function Home() {
               <span className="second-card-img">
                 <img
                   src="/image/1-1.png"
-                  className="card-img-top"
+                  className="card-img-top card-img-top3"
                   alt=""
                 />
               </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Yeastar-PBX System</a>
+                  <a>Yeastar-PBX System</a>
                 </p>
               </div>
             </div>
@@ -462,7 +453,7 @@ export default function Home() {
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Milesight-Surveillance System</a>
+                  <a>Milesight-Surveillance System</a>
                 </p>
               </div>
             </div>
@@ -470,14 +461,14 @@ export default function Home() {
               <span className="second-card-img">
                 <img
                   src="/image/4-1.png"
-                  className="card-img-top"
+                  className="card-img-top card-img-top3"
                   alt="4-1.png"
                 />
               </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">AKUVOX-Smart Intercom</a>
+                  <a>AKUVOX-Smart Intercom</a>
                 </p>
               </div>
             </div>
@@ -485,14 +476,14 @@ export default function Home() {
               <span className="second-card-img">
                 <img
                   src="/image/5-1.png"
-                  className="card-img-top"
+                  className="card-img-top card-img-top3"
                   alt="5-1.png"
                 />
               </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">2N-IP Intercom</a>
+                  <a>2N-IP Intercom</a>
                 </p>
               </div>
             </div>
@@ -507,7 +498,7 @@ export default function Home() {
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">XCALLY-Call Center Solution</a>
+                  <a>XCALLY-Call Center Solution</a>
                 </p>
               </div>
             </div>
@@ -515,14 +506,14 @@ export default function Home() {
               <span className="second-card-img">
                 <img
                   src="/image/outdoor-series.png"
-                  className="card-img-top"
+                  className="card-img-top card-img-top3"
                   alt="outdoor-series.png"
                 />
               </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">EnGenius-Wireless Solution</a>
+                  <a>EnGenius-Wireless Solution</a>
                 </p>
               </div>
 
@@ -531,14 +522,14 @@ export default function Home() {
               <span className="second-card-img">
                 <img
                   src="/image/draytek-products.png"
-                  className="card-img-top "
+                  className="card-img-top card-img-top3"
                   alt="1-1.png"
                 />
               </span>
               <div className="card-body">
                 <p className="card-text">
                   {" "}
-                  <a href="#">Draytek VPN Router</a>
+                  <a>Draytek VPN Router</a>
                 </p>
               </div>
             </div>
@@ -546,21 +537,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="Upcoming-Products-section">
+      {/* <section className="Upcoming-Products-section">
         <div className="container">
           <div className="row">
-            <Slide top>
               <div className="header">
                 <h2>
                   Upcoming Products <div className="header-bottom-border" />
                 </h2>
               </div>
-            </Slide>
             <div className="paragaph-1 col-lg-12 col-md-12 col-sm-12 col-xs-12 m-2How can we help your Business?">
-              {/* <p>
+              <p>
                 We are a team of astronauts (not literally) who are building
                 blockchain-powered solutions to shoot for the moon!{" "}
-              </p> */}
+              </p>
             </div>
           </div>
         </div>
@@ -674,7 +663,7 @@ export default function Home() {
             </Slider>
           </div>
         </div>
-      </section>
+      </section> */}
       <Logoslider />
     </>
   );
