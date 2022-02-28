@@ -19,7 +19,7 @@ export default function Home() {
   var settings = {
     dots: true,
     infinite: true,
-    // autoplay: true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

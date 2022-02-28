@@ -2221,3 +2221,31 @@ list-style: none;
   transform: translateY(0);
 } */
 /* 3cb7fb */
+._1bpcM{
+  position: fixed;
+  bottom: 40px;
+  right: 0px;
+
+}
+._1fOYS{
+  position: fixed;
+  bottom: 100px;
+  right: 0px;
+
+} 
+._1bpcM svg {
+  width: 30px;
+}
+.scroltop-bnt{
+  padding: 8px 10px;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  background-color: #37a1da !important;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 3px 1px #D9D9D9;
+  box-shadow: 0 0 3px 1px #D9D9D9;
+}
+.scroltop-bnt svg {
+  width: 20px;
+}
