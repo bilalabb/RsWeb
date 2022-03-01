@@ -38,6 +38,9 @@ src="https://www.facebook.com/tr?id=251403817006005&ev=PageView&noscript=1"/>` }
         >
         </noscript>
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144008749-1"></script>
+        
+
       </Head>
 
       <Navbar />

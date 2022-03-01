@@ -23,12 +23,12 @@ export default function Footer() {
                 <p className="card-text-2">1st Floor, Building Number 122, Civic Center, Bahria Town, Phase 4</p>
                 <p className="card-text-2 mb-0">
                   <img src="/image/old-typical-phone.png" className="contact-icon" alt="..." />
-                  <a href="tel:+1-051-2728822">051-2728822</a>
+                  <a href="tel:051-2728822">051-2728822</a>
                 </p>
                 <p className="card-text-2 mb-0">
                   {/* <img src="/image/old-typical-phone.png" className="contact-icon" alt="..." /> */}
                   <FontAwesomeIcon icon={faPhoneAlt} />
-                  <a href="tel:+1-3336669532">+923336669532</a>
+                  <a href="tel:+92-3336669532">+923336669532</a>
                 </p>
               </div>
             </div>

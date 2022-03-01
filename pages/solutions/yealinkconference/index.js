@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
-import Zoom from 'react-reveal/Zoom';
-import Slide from 'react-reveal/Slide';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronRight,
@@ -52,17 +50,13 @@ export default function Solutions() {
           <div className="row">
             <div className="div-1 col-lg-6 col-md-6 yealink-header-div col-12">
               <div className="Yealink-header">
-                <Slide left>
                   <h1>
                     Yealink-Video Conferecing{" "}
                   </h1>
-                </Slide>
               </div>
             </div>
             <div className="div-2 col-lg-6 col-12 col-md-6">
-              <Slide right>
                 <img src="/image/MicrosoftTeams-image-3.png" className="img-fluid" />
-              </Slide>
             </div>
           </div>
         </div>
@@ -71,7 +65,6 @@ export default function Solutions() {
       <section className="Microsoft-solution-section">
         <div className="container">
           <div className="row">
-            <Slide top>
               <div className="header">
                 <h2>
                   Microsoft Solution
@@ -87,8 +80,6 @@ export default function Solutions() {
                   Yealink is the principal supplier offering one-stop sound/video ensured Microsoft Teams gadgets, covering situations of workplaces, open work areas, group rooms and enormous gathering rooms.
                 </p>
               </div>
-            </Slide>
-            <Zoom>
               <div className="icon-main-div">
                 <div className="icon-1">
                   <div className="icon">
@@ -130,7 +121,6 @@ export default function Solutions() {
                   <h4>Plug n Play Setup</h4>
                 </div>
               </div>
-            </Zoom>
           </div>
         </div>
       </section>
@@ -139,12 +129,9 @@ export default function Solutions() {
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-6 high-qualty-img">
-              <Zoom>
                 <div className="high-qualty-image">
                   <img src="/image/MicrosoftTeams-image-3.png" />
                 </div>
-              </Zoom>
-
               <Slider {...settings2} className="logo-slider-2">
                 <div className="slick-image-slide">
                   <img src="/image/CP900-ms-teams.jpg" alt="" className="logo-slider3-image" />
@@ -181,7 +168,6 @@ export default function Solutions() {
                 </div>
               </Slider>
             </div>
-            <Slide right>
               <div className="col-12 col-md-6 high-qualty-text">
                 <div className="Quality-heading">
                   <h2>High Quality</h2>
@@ -212,14 +198,12 @@ export default function Solutions() {
                   <div className="high-qualty-border-bottom" />
                 </div>
               </div>
-            </Slide>
           </div>
         </div>
       </section>
       <section className="Yealink-iphone-section">
         <div className="container">
           <div className="row">
-            <Slide right>
               <div contextMenu="Yealink-iphone-div">
                 <div className="header header-iphone">
                   <h2>Yealink IP Phones<div className="header-iphone-border" /></h2>
@@ -240,7 +224,6 @@ export default function Solutions() {
                   </p>
                 </div>
               </div>
-            </Slide>
           </div>
         </div>
       </section>

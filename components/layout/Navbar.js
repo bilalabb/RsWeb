@@ -71,7 +71,7 @@ export default function Navbar() {
                       <FontAwesomeIcon icon={faLightbulb}/>
                        <span> Solutions</span>
                        <span>
-                         <img src="/image/arrow+right.png" className="img-fluid sub-arrow"/>
+                         {/* <img src="/image/arrow+right.png" className="img-fluid sub-arrow"/> */}
                        </span>
                       </a>
                     </Link>

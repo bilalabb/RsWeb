@@ -8,10 +8,12 @@ import { ScrollArea, ScrollTo } from "react-scroll-to";
 import Layout from "../components/layout/Layout"
 import NextNprogress from "nextjs-progressbar";
 import WhatsAppWidget from 'react-whatsapp-widget'
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp} from '@fortawesome/free-solid-svg-icons'
+import dynamic from 'next/dynamic'
+import Tawkto from "../components/layout/Tawkto";
 
+  
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -34,11 +36,8 @@ function MyApp({ Component, pageProps }) {
 			   <FontAwesomeIcon icon={faArrowUp} />
 			</button>
 		</a>
-    <MessengerCustomerChat
-    pageId="<PAGE_ID>"
-    appId="<APP_ID>"
-    htmlRef="<REF_STRING>"
-  />,
+
+    {/* <Tawkto /> */}
     </Layout>
     </>
   )

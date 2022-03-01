@@ -104,7 +104,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="carousel-item active">
-                <div className="carousel-caption d-md-block col-12 col-md-4">
+                <div className="carousel-caption d-md-block col-6  col-md-4">
                   <div className="carousel-caption-inner">
                     <div width='40%'>
                       <Slide top>
@@ -112,7 +112,7 @@ export default function Home() {
                           className=""
                           alt="..."
                         />
-                      </Slide>x
+                      </Slide>
                       <Slide left>
                         <p>
                           Yeastar's Topnotch PBX system and Gateways in the modern-day market
