@@ -8,17 +8,16 @@ export default function ContactUs() {
   return (
     <>
       <section className="contact-section">
+
         <Slide top>
         <div className="contact-image">
           <div className="header-contact">
             <h1>Contact Us</h1>
             <div className="bottom-border" />
           </div>
-
         </div>
-        </Slide>
+        </Slide> 
       </section>
-
       <section className="user-detail">
         <div className="container">
           <div className="row">

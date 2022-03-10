@@ -41,89 +41,101 @@ export default function Navbar() {
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
+                onClick={navBtn}
               >
-                <span className="navbar-toggler-icon" />
+                <span className="" /> 
+                <span className="" />
+                <span className="" />
               </button>
               <div
-                className="collapse navbar-collapse"
+                className={`${navShowHandler} collapse navbar-collapse`}
                 id="navbarSupportedContent"
               >
+                
                 <ul className="navbar-nav">
+                {/* <li className="nav-item">
+                  <a className="navbar-brand d-lg-none" href="#">
+                  <img
+                    src="/image/MicrosoftTeams-image.png"
+                    className="img-fluid logo"
+                  />
+                </a>
+                  </li> */}
                   <li className="nav-item">
                     <Link href="/">
-                      <a className="nav-link active Home" aria-current="page">
+                      <a className="nav-link active Home" aria-current="page" onClick={navhideHandler}>
                         <FontAwesomeIcon icon={faHome} />
-                       <span className=""> Home</span>
+                        <span className=""> Home</span>
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/about">
-                      <a className="nav-link support-icon">
-                      <FontAwesomeIcon icon={faUser} />
-                       <span className=""> About Us</span>
-                        </a>
+                      <a className="nav-link support-icon" onClick={navhideHandler}>
+                        <FontAwesomeIcon icon={faUser} />
+                        <span className=""> About Us</span>
+                      </a>
                     </Link>
                   </li>
                   <li class="nav-item dropdown dropdown-menu-costam">
-                    <Link href="">
-                      <a class="nav-link support-icon">
-                      <FontAwesomeIcon icon={faLightbulb}/>
-                       <span> Solutions</span>
-                       <span>
-                         {/* <img src="/image/arrow+right.png" className="img-fluid sub-arrow"/> */}
-                       </span>
+                    <Link href="/solutions/yealinkconference">
+                      <a class="nav-link support-icon" onClick={navhideHandler}>
+                        <FontAwesomeIcon icon={faLightbulb} />
+                        <span> Solutions</span>
+                        <span>
+                          <img src="/image/arrow+right.png" className="img-fluid sub-arrow" />
+                        </span>
                       </a>
                     </Link>
                     <ul class="dropdown-menu">
-                    <li>
-                      <Link href="/solutions/yealinkconference">
-                        <a class="dropdown-item" href="">Yealink-Video<br />Conferecing</a>
-                        </Link>
-                        </li>
                       <li>
-                      <Link href="/solutions/yeastarseries">
-                        <a class="dropdown-item" href=""> Yeastar-PBX <br />System</a>
+                        <Link href="/solutions/yealinkconference">
+                          <a class="dropdown-item" onClick={navhideHandler}>Yealink-Video<br />Conferecing</a>
                         </Link>
-                        </li>
+                      </li>
                       <li>
-                      <Link href="/solutions/milesight">
-                        <a class="dropdown-item" href="#">Milesight-Surveillance <br />System</a>
+                        <Link href="/solutions/yeastarseries">
+                          <a class="dropdown-item" onClick={navhideHandler}> Yeastar-PBX <br />System</a>
                         </Link>
-                        </li>
-                        <li>
-                      <Link href="/solutions/xcally">
-                        <a class="dropdown-item" href="#">XCALLY-Call Center<br /> Solution</a>
+                      </li>
+                      <li>
+                        <Link href="/solutions/milesight">
+                          <a class="dropdown-item" onClick={navhideHandler}>Milesight-Surveillance <br />System</a>
                         </Link>
-                        </li>
-                        <li>
-                      <Link href="/solutions/draytek">
-                        <a class="dropdown-item" href="#">Draytek VPN Router</a>
+                      </li>
+                      <li>
+                        <Link href="/solutions/xcally">
+                          <a class="dropdown-item" onClick={navhideHandler}>XCALLY-Call Center<br /> Solution</a>
                         </Link>
-                        </li>
+                      </li>
+                      <li>
+                        <Link href="/solutions/draytek">
+                          <a class="dropdown-item" onClick={navhideHandler}>Draytek VPN Router</a>
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="nav-item">
                     <Link href="/contactus">
-                      <a className="nav-link" >
-                      <FontAwesomeIcon icon={faAddressCard}/>
-                       <span> Contact Us</span>
+                      <a className="nav-link" onClick={navhideHandler}>
+                        <FontAwesomeIcon icon={faAddressCard} />
+                        <span> Contact Us</span>
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="">
-                      <a className="nav-link">
-                      <FontAwesomeIcon icon={faProductHunt}/>
-                       <span> Products</span>
+                      <a className="nav-link" onClick={navhideHandler}>
+                        <FontAwesomeIcon icon={faProductHunt} />
+                        <span> Products</span>
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="">
-                      <a className="nav-link">
-                      <FontAwesomeIcon icon={faLifeRing}/>
-                       <span> Support</span>
+                      <a className="nav-link" onClick={navhideHandler}>
+                        <FontAwesomeIcon icon={faLifeRing} />
+                        <span> Support</span>
                       </a>
                     </Link>
                   </li>
@@ -131,7 +143,7 @@ export default function Navbar() {
               </div>
             </div>
           </nav>
-          
+
         </div>
       </section>
     </>

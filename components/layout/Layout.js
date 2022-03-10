@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Header2 from "../Header2";
 
 export default function Layout({ children }) {
   return (
@@ -44,6 +45,7 @@ src="https://www.facebook.com/tr?id=251403817006005&ev=PageView&noscript=1"/>` }
       </Head>
 
       <Navbar />
+      <Header2 />
       <div className="main-rapper-col">{children}</div>
       <Footer />
     </>
